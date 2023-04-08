@@ -22,7 +22,7 @@ export default function Nav() {
           <NavLink to="/portfolio">Portfolio</NavLink>
         </ul>
         <ul>
-          <NavLink to="/cantact">Contact</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </ul>
       </div>
     </div>
