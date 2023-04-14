@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+  
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: block;
+    height: 20%;
+    width: 20%;
+   
+}

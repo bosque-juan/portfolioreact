@@ -1,7 +1,19 @@
-/* .App {
+.body {
+background-color: red;
   text-align: center;
+background-color:#12013a;
+color:blanchedalmond;
+margin: 3 0 0 0;
+
+justify-items: center;
+align-items: center;
+
+}
+section{
+  border-bottom: 1px solid white ;
 }
 
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +48,9 @@
     transform: rotate(360deg);
   }
 } */
+
+.section{
+  background-color: brown;
+  border: 1px solid yellow;
+  margin:0;
+} 

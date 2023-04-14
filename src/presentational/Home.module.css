@@ -1,0 +1,31 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  padding-left: 8rem;
+}
+.image {
+  display: block;
+  height: 60%;
+  width: 60%;
+  border-radius: 20px;
+}
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 10rem;
+}
+
+.greeting {
+  display: block;
+  text-align: start;
+  font-size: 8rem;
+  margin-top: 3rem;
+}
+
+h6 span {
+  display: block;
+}

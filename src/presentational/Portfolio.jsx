@@ -1,35 +1,57 @@
+
+import { Slide } from "react-awesome-reveal";
+import landingS from '../assets/landingS.png'
+import recipess from '../assets/recipess.png'
+import Style from './Portfolio.module.css'
+
+
+
 export default function Portfolio() {
+
   return (
-    <section class="portfolio section" id="portfolio">
-      <h2 class="section-title">Portfolio</h2>
+    <div  id="portfolio">
+      <Slide left cascade  duration={5000}>
 
-      <div class="portfolio__container bd-grid">
-        <div class="portfolio__img">
-          <img src="assets/img/landingS.png" alt="" />
 
-          <div class="portfolio__link">
+      <h1 className={Style.title}>Portfolio</h1>
+      <div className={Style.container} >
+        <div className="portfolio__img">
+        
+
+          <div className="portfolio__link">
+          <h6>
+              Weather App, forecast home
+
+              </h6>
             <a
               href="https://weatherapp-32xm.onrender.com/"
-              class="portfolio__link-name"
+              className="portfolio__link-name"
             >
-              Weather App, forecast home
-            </a>
+                <img src={landingS} alt="" />
+                </a>
+             
+          
           </div>
         </div>
 
-        <div class="portfolio__img">
-          <img src="assets/img/recipess-food.png" alt="" />
+        <div >
+   
 
-          <div class="portfolio__link">
+          <div>
+          <h6>
+               Food Recipes App, delicious meals
+              </h6>
             <a
-              href="https://recipes-food.onrender.com/"
-              class="portfolio__link-name"
+              href="https://recipes-responsive.vercel.app/"
+              
             >
-              Food Recipes App, delicious meals
+                     <img src={recipess} alt="" />
             </a>
+            
           </div>
         </div>
       </div>
-    </section>
+      </Slide>
+    </div>
   );
 }
