@@ -1,6 +1,5 @@
-// import Style from './Home.module.css'
-import Img from "../assets/profilePicture.jpeg";
-import { Slide, Zoom } from "react-awesome-reveal";
+
+import { Slide } from "react-awesome-reveal";
 import Style from "./Home.module.css";
 
 export default function Home() {
@@ -8,34 +7,27 @@ export default function Home() {
     <div className={Style.head} id="home">
       <a href="#about">
         <i>
-          <h6>
-            <span> S </span>
-            <span> C </span>
-            <span> R</span>
-            <span> O </span>
-            <span> L </span>
-            <span> L </span>
-            <br />
-            <span> D </span>
-            <span> O </span>
-            <span> W</span>
-            <span> N </span>
-          </h6>
+          <h6>Scroll Down</h6>
         </i>
       </a>
       <div className={Style.container}>
-        <Slide right duration={1500}>
+        <Slide right>
           <div className={Style.greeting}>
-            
-              <span>HE</span>
-              <br />
-              LLO.
-          
+            <span>HE</span>
+            <br />
+            LLO.
           </div>
         </Slide>
-        <Slide right duration={2000}>
-          <img className={Style.image} src={Img} alt="" />
-        </Slide >
+        <Slide right >
+          <div>
+            <h5 style={{fontSize:'1 rem'}}>FULL STACK WEB DEVELOPER</h5>
+            <h3 style={{fontSize:'2 rem', paddingBottom:'10 rem'}}>
+              Hi, I am Juan
+              <br />
+              from Argentina
+            </h3>
+          </div>
+        </Slide>
       </div>
     </div>
   );

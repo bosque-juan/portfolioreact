@@ -1,22 +1,25 @@
 .head {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content:center;
   height: 100vh;
-  padding-left: 8rem;
+  padding-left: 1rem;
 }
-.image {
+/* div {
   display: block;
   height: 60%;
   width: 60%;
   border-radius: 20px;
-}
+} */
 .container {
-  display: grid;
+ 
+  display:grid;
+  flex-wrap: wrap;
   align-items: center;
+  gap:10rem;
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
-  padding-left: 10rem;
+  padding-left: 4rem;
 }
 
 .greeting {
@@ -24,8 +27,10 @@
   text-align: start;
   font-size: 8rem;
   margin-top: 3rem;
+  margin-left: 3rem;
 }
 
-h6 span {
-  display: block;
+h6 {
+    writing-mode:vertical-lr;
+    /* text-orientation:sideways; */
 }

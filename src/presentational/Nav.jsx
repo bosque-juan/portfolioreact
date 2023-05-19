@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <div  className={Style.head}>
       <div >
-        <h2 className={Style.logo}>JB</h2>
+        <main className={Style.logo}>JB</main>
       </div>
       <div className={Style.links}>
         <span>

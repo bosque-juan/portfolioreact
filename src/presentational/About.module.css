@@ -1,7 +1,58 @@
-.container{
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    height: 100vh;
-  
+.head {
+  display: grid;
+  justify-items: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:3rem;
+  height: 100vh;
+  width: 80%;
+  grid-template-columns: repeat(2, 1fr);
+}
+.about {
+  display: grid;
+  width: 500%;
+}
+.img {
+  margin: 12rem;
+  display: flex;
+  height: 18rem;
+  width: 18rem;
+  border-radius: 200px;
+}
+
+.main1 {
+  padding-top: 3rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+  border-bottom: 1px solid #b2ab2e;
+  justify-content: center;
+  border-color: aqua solid normal;
+}
+
+.abouText {
+  column-count: 2;
+  animation-duration: 3s;
+  animation-name: sliden;
+}
+.icon {
+  color: #b2ab2e;
+  font-size: 3rem;
+}
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 3rem;
+}
+@keyframes slidein {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+    rotate: 45deg;
+  }
 }

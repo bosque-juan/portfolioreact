@@ -1,36 +1,44 @@
-import Style from'./Skills.module.css'
+import Style from "./Skills.module.css";
+import image from "../assets/desk.png";
+import { Slide } from "react-awesome-reveal";
+
 export default function Skills() {
-    return (
-        <div className={Style.container} id="skills">
-        <h2 >Skills</h2>
+  return (
+    <div className={Style.head} id="skills">
+        <Slide>
+      <main className={Style.main1}>Skills</main>
 
+      <div className={Style.container} >
         <div >
-          <div >
-            <h3 >Development</h3>
-            <div>
-              <span >Html</span>
-              <span >Javascript</span>
-              <span >React</span>
-              <span >Redux</span>
-              <span >Css</span>
-              <span >Node</span>
-              <span >Sequelize</span>
-              <span >Express</span>
-              <span >PostgreSql</span>
-              <span >RESTful API</span>
-              <span >Postman</span>
-              <span >SCRUM</span>
-              <span >Trello</span>
-              <span >Git hub</span>
-              <span >Git commands</span>
+            <div className={Style.develop}>
+              Development
             </div>
-          </div>
-
-          <div >
-            <img src="../assets/img/skill.jpg" alt="" />
-          </div>
+          
+            <div className={Style.skills}> 
+              <ul>Html</ul>
+              <ul>Javascript</ul>
+              <ul>React</ul>
+              <ul>Redux</ul>
+              <ul>Css</ul>
+              <ul>Node</ul>
+              <ul>Sequelize</ul>
+              <ul>Express</ul>
+              <ul>PostgreSql</ul>
+              <ul>RESTful API</ul>
+              <ul>Postman</ul>
+              <ul>SCRUM</ul>
+              <ul>Trello</ul>
+              <ul>Git hub</ul>
+              <ul>Git commands</ul>
+            </div>
+          
+         
         </div>
+        <div >
+            <img className={Style.image} src={image} alt="" />
+          </div>
       </div>
-    )
-    
+        </Slide>
+    </div>
+  );
 }
