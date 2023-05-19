@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className={Style.head} id="about">
       <Slide>
-      <main className={Style.main1}>About</main>
+      <main className={Style.main}>About</main>
 
       <div className={Style.container}>
         <div >

@@ -1,6 +1,6 @@
 import Style from "./Skills.module.css";
 import image from "../assets/desk.png";
-import { Slide } from "react-awesome-reveal";
+import { Slide, Fade } from "react-awesome-reveal";
 
 export default function Skills() {
   return (
@@ -15,6 +15,7 @@ export default function Skills() {
             </div>
           
             <div className={Style.skills}> 
+            <Fade cascade damping={0.1}>
               <ul>Html</ul>
               <ul>Javascript</ul>
               <ul>React</ul>
@@ -30,6 +31,7 @@ export default function Skills() {
               <ul>Trello</ul>
               <ul>Git hub</ul>
               <ul>Git commands</ul>
+              </Fade>
             </div>
           
          

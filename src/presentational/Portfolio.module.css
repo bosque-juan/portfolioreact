@@ -6,14 +6,17 @@
     height: 100vh;
   
 }
-
-.title{
+.headPortfolio{
+    background-color: none;
+}
+.mainPortfolio{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-img{
+
+.imgPortfolio{
     display: block;
     height: 20%;
     width: 20%;

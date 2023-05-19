@@ -5,9 +5,9 @@ import Style from "./Portfolio.module.css";
 
 export default function Portfolio() {
   return (
-    <div id="portfolio">
+    <div id="portfolio" className={Style.headPortfolio}>
       <Slide left cascade>
-        <h1 className={Style.title}>Portfolio</h1>
+        <h1 className={Style.mainPortfolio}>Portfolio</h1>
         <div className={Style.container}>
           <div className="portfolio__img">
             <div className="portfolio__link">
@@ -16,7 +16,7 @@ export default function Portfolio() {
                 href="https://weatherapp-32xm.onrender.com/"
                 className="portfolio__link-name"
               >
-                <img src={landingS} alt="" />
+                <img className={Style.imgPortfolio} src={landingS} alt="" />
               </a>
             </div>
           </div>

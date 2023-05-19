@@ -6,13 +6,11 @@ import Skills from "./presentational/Skills";
 import Portfolio from "./presentational/Portfolio";
 import Contact from "./presentational/Contact";
 import Footer from "./presentational/Footer";
-// import { Fade } from "react-awesome-reveal";
-// <Fade left duration={2000}>
-// </Fade>
+
 function App() {
   return (
-    <div className="body" >
-      <Nav  />
+    <div className="body">
+      <Nav />
 
       <section>
         <Home />
