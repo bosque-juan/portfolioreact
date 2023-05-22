@@ -24,10 +24,28 @@
 }
 
 .main {
+  position:relative;
+  display: inline-block;
   padding-top: 3rem;
   font-size: 3rem;
-  border-bottom: 1px solid #b2ab2e;
   justify-content: center;
+}
+
+
+.main::after {
+  content: ""; 
+  position: absolute; 
+  bottom: 0; 
+  left: 10%; 
+  width: 80%;
+  height: 1px; 
+  background-color: #b2ab2e; 
+  transition: all 0.3s ease; 
+}
+
+.main:hover::after {
+  left: 0;
+  width: 100%; 
 }
 
 .icon {

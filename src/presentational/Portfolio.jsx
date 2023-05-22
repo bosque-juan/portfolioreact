@@ -5,29 +5,33 @@ import Style from "./Portfolio.module.css";
 
 export default function Portfolio() {
   return (
-    <div id="portfolio" className={Style.headPortfolio}>
+    <div id="portfolio" className={Style.head}>
       <Slide left cascade>
         <h1 className={Style.mainPortfolio}>Portfolio</h1>
         <div className={Style.container}>
-          <div className="portfolio__img">
-            <div className="portfolio__link">
-              <h5>Weather App, forecast home</h5>
-              <a
-                href="https://weatherapp-32xm.onrender.com/"
-                className="portfolio__link-name"
-              >
-                <img className={Style.imgPortfolio} src={landingS} alt="" />
-              </a>
-            </div>
+          <div className={Style.imgContainer}>
+          
+              <img className={Style.imgPortfolio} src={landingS} alt="" /> 
+            <a href="https://weatherappjb.vercel.app/">
+            <h5 className={Style.imgTitle}>
+              Weather App, find up the forecast!
+              <br />
+              click
+            </h5>
+            </a>
           </div>
 
-          <div>
-            <div>
-              <h5>Food Recipes App, delicious meals</h5>
-              <a href="https://recipes-responsive.vercel.app/">
-                <img src={recipess} alt="" />
-              </a>
-            </div>
+
+          <div className={Style.imgContainer}>
+        
+              <img className={Style.imgPortfolio} src={recipess} alt="" /> 
+            <a href="https://recipes-responsive.vercel.app/">
+            <h5 className={Style.imgTitle}>
+              Food Recipes App, to make your food!
+              <br />
+              click
+            </h5>
+            </a>
           </div>
         </div>
       </Slide>

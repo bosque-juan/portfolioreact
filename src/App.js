@@ -10,7 +10,7 @@ import Footer from "./presentational/Footer";
 function App() {
   return (
     <div className="body">
-      <Nav />
+      <Nav  />
 
       <section>
         <Home />
