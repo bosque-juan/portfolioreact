@@ -1,4 +1,4 @@
-.container {
+.containerPortfolio {
   display: flex;
   padding-top: 8%;
   justify-content: center;
@@ -14,7 +14,7 @@
 .mainPortfolio {
   position: relative;
   display: inline-block;
-  padding-top: 3rem;
+  padding-top: 7rem;
   font-size: 3rem;
   justify-content: center;
 }
@@ -70,4 +70,5 @@
 .imgContainer:hover .imgTitle {
   opacity: 1;
   border-radius: 10px;
+  transition: 1s;
 }

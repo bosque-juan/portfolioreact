@@ -8,7 +8,7 @@ export default function Portfolio() {
     <div id="portfolio" className={Style.head}>
       <Slide left cascade>
         <h1 className={Style.mainPortfolio}>Portfolio</h1>
-        <div className={Style.container}>
+        <div className={Style.containerPortfolio}>
           <div className={Style.imgContainer}>
           
               <img className={Style.imgPortfolio} src={landingS} alt="" /> 
