@@ -1,27 +1,29 @@
+import Style from './Contact.module.css'
 export default function Contact() {
   return (
-    <div id="contact">
-      <h2>Contact</h2>
+    <div id="contact" className={Style.headContact}>
+      <main className={Style.mainContact}>Contact</main>
 
-      <div>
-        <div>
-          <h3>EMAIL</h3>
+      <div className={Style.containerContact}>
+        <div className={Style.data}>
+          <h1>EMAIL</h1>
           <span>juan_bosque@hotmail.com</span>
 
-          <h3>PHONE</h3>
+          <h1>PHONE</h1>
           <span>+54 351 7674416</span>
 
-          <h3>ADRESS</h3>
+          <h1>ADRESS</h1>
           <span>Argentina, Córdoba, Córdoba</span>
         </div>
 
         <form
           action="https://formsubmit.co/juan_bosque@hotmail.com"
           method="POST"
+          className={Style.form}
         >
-          <div>
-            <input type="text" name="name" placeholder="Name" required />
-            <input type="mail" name="email" placeholder="Email" required />
+          <div className={Style.dataInput}>
+            <input  type="text" name="name" placeholder="Name" required />
+            <input id="email" type="mail" name="email" placeholder="Email" required />
           </div>
 
           <textarea
@@ -29,11 +31,12 @@ export default function Contact() {
             placeholder="Your Message"
             id=""
             cols="0"
-            rows="10"
+            rows="8"
             required
+            className={Style.textArea}
           ></textarea>
 
-          <input type="submit" value="Send" />
+          <input className={Style.button} type="submit" value="Send" />
         </form>
       </div>
     </div>

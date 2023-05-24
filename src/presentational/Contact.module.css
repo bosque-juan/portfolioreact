@@ -1,0 +1,103 @@
+.headContact {
+  display: grid;
+  justify-items: center;
+}
+.containerContact {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  height: 80vh;
+  width: 80%;
+  grid-template-columns: repeat(2, 1fr);
+}
+.about {
+  display: grid;
+  width: 500%;
+}
+.img {
+  margin: 12rem;
+  display: flex;
+  height: 18rem;
+  width: 18rem;
+  border-radius: 200px;
+}
+
+.mainContact {
+  position: relative;
+  display: inline-block;
+  padding-top: 7rem;
+  font-size: 3rem;
+  justify-content: center;
+}
+
+.mainContact::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  height: 1px;
+  background-color: #b2ab2e;
+  transition: all 0.3s ease;
+}
+
+.mainContact:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.data {
+  display: grid;
+  text-align: left;
+  padding-left: 10rem;
+}
+
+.form {
+  display: grid;
+  gap: 1.5rem;
+  justify-items: center;
+}
+::placeholder {
+  color: black;
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+input {
+  font-weight: bolder;
+  color: black;
+  border-radius: 10px;
+  padding: 0.4rem;
+  background-color: bisque;
+
+  border: black 1px solid;
+}
+.dataInput {
+  display: flex;
+  gap: 0.5rem;
+}
+.textArea {
+  font-weight: bolder;
+  color: black;
+  border-radius: 10px;
+  background-color: bisque;
+  padding-left: 1rem;
+  width: 23.5rem;
+  border: black 1px solid;
+}
+.button {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  color: black;
+  border-radius: 10px;
+  background-color: #b2ab2e;
+  padding: 0.5rem;
+  width: 25rem;
+  border: black 1px solid;
+  font-family: "Courier New", Courier;
+  cursor: grab;
+}
+.button:hover {
+  background-color: #afa820;
+}
