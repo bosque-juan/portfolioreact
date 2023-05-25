@@ -35,3 +35,12 @@ a {
   color: #82ff04;
   width: 45%;
 }
+
+@media screen and (max-width: 600px) {
+
+  .containerHome{
+    display: grid;
+    flex-direction: column;
+    
+  }
+}

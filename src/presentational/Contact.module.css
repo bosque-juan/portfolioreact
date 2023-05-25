@@ -101,3 +101,16 @@ input {
 .button:hover {
   background-color: #afa820;
 }
+@media screen and (max-width: 600px) {
+  .containerContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 6rem;
+  }
+  .data {
+    margin-top: 3rem;
+    justify-items: center;
+    padding-left: 0rem;
+  }
+}

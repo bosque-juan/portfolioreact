@@ -72,3 +72,21 @@
   border-radius: 10px;
   transition: 1s;
 }
+@media screen and (max-width: 600px) {
+  .containerPortfolio {
+    display: grid;
+    padding-top: 3%;
+    justify-content: center;
+    gap: .5rem;
+    height: 60vh;
+    width: 100%;
+  }
+  .imgContainer {
+    position: relative;
+    display: inline-block;
+ 
+}
+.imgPortfolio{
+    margin-right: 0rem;
+}
+}

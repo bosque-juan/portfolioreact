@@ -27,3 +27,12 @@
 h6 {
     writing-mode:vertical-lr;
 }
+
+@media screen and (max-width: 600px) {
+  .containerHome{
+    display: flex;
+    flex-direction: column;
+  padding-left: 3%;
+  gap:3rem;
+  }
+}

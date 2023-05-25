@@ -58,3 +58,17 @@
   gap: 3rem;
   padding-top: 3rem;
 }
+
+@media screen and (max-width: 600px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  justify-items: center;
+  width: 100%;
+  gap:0rem;
+  }
+  .about {
+    width: 80%;
+  }
+  }

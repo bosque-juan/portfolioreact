@@ -8,7 +8,7 @@ export default function Skills() {
         <Slide>
       <main className={Style.main1}>Skills</main>
 
-      <div className={Style.container} >
+      <div className={Style.containerSkills} >
         <div >
             <div className={Style.develop}>
               Development
