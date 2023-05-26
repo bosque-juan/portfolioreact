@@ -24,11 +24,13 @@ export default function About() {
             <div className={Style.iconContainer}>
               <a href="https://www.linkedin.com/in/juan-bosque">
                 <i>
-                  <AiFillLinkedin className={Style.icon} />
+         
+                  <AiFillLinkedin className={Style.icon} />{" "}
                 </i>
               </a>
               <a href="https://www.github.com/juanchos85">
                 <i>
+         
                   <AiFillGithub className={Style.icon} />{" "}
                 </i>
               </a>

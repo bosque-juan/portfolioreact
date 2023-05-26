@@ -70,6 +70,7 @@ ul {
     flex-direction: column;
   }
   .skills {
+    width: 60%;
 margin-top: 3rem;}
 .develop {
   margin-top: 6rem;

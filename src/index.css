@@ -10,3 +10,9 @@ html {
   background-color: #180c0c;
 }
 
+/* @media screen and(max-width:600px){
+ body{ 
+display: flex;
+  font-size:1rem;
+  }
+} */
