@@ -39,11 +39,11 @@ a {
     display: flex;
 
     padding: 0px;
-    left:2rem;
+    left:1rem;
   }
   .links{
     margin-right: 3rem;
-    width: 80%;
+    width: 87%;
     justify-content: flex-start;
     gap:1rem;
   }
