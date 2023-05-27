@@ -70,7 +70,6 @@ input {
   border-radius: 10px;
   padding: 0.4rem;
   background-color: bisque;
-
   border: black 1px solid;
 }
 .dataInput {
@@ -105,14 +104,18 @@ input {
   .headContact {
     width: 100%;
   }
+  .mainContact {
+    padding-top: 2rem;
+    font-size: 2.5rem;
+  }
   .containerContact {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 6rem;
+
   }
   .data {
-    margin-top: 3rem;
+    margin-top: 1rem;
     justify-items: center;
     padding-left: 0rem;
   }
@@ -125,5 +128,8 @@ input {
   }
   .button {
     width: 16rem;
+  }
+  .form{
+    gap:0.5rem;
   }
 }
