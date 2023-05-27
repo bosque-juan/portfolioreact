@@ -28,6 +28,4 @@ html {
   scroll-behavior: smooth;
   background-color: #180c0c;
 }
-@media screen  and (max-width: 600px){
- /* body{ display: flex;} */
-}
+
