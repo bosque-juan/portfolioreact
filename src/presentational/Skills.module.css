@@ -1,4 +1,4 @@
-.head {
+.headSkills {
   display: grid;
   justify-items: center;
 }
@@ -66,7 +66,7 @@ ul {
 
 @media screen and (max-width: 600px) {
   .containerSkills{
-    display: none;
+    
     flex-direction: column;
   }
   .skills {
@@ -74,6 +74,9 @@ ul {
 margin-top: 3rem;}
 .develop {
   margin-top: 6rem;
+}
+.headSkills{
+  display: none;
 }
 }
 

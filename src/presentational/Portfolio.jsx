@@ -5,7 +5,7 @@ import Style from "./Portfolio.module.css";
 
 export default function Portfolio() {
   return (
-    <div id="portfolio" className={Style.head}>
+    <div id="portfolio" className={Style.headPortfolio}>
       <Slide left cascade>
         <h1 className={Style.mainPortfolio}>Portfolio</h1>
         <div className={Style.containerPortfolio}>

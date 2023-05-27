@@ -73,8 +73,9 @@
   transition: 1s;
 }
 @media screen and (max-width: 600px) {
-  .containerPortfolio {
-    display: none;
+  .headPortfolio{display:none}
+    .containerPortfolio {
+   
     padding-top: 3%;
     justify-content: center;
     gap: .5rem;

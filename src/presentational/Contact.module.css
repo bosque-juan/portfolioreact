@@ -102,6 +102,9 @@ input {
   background-color: #afa820;
 }
 @media screen and (max-width: 600px) {
+  .headContact {
+    width: 100%;
+  }
   .containerContact {
     display: flex;
     flex-direction: column;
@@ -112,5 +115,15 @@ input {
     margin-top: 3rem;
     justify-items: center;
     padding-left: 0rem;
+  }
+  .dataInput {
+    display: grid;
+    width: 16rem;
+  }
+  .textArea {
+    width: 15rem;
+  }
+  .button {
+    width: 16rem;
   }
 }

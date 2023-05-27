@@ -4,7 +4,7 @@ import { Slide, Fade } from "react-awesome-reveal";
 
 export default function Skills() {
   return (
-    <div className={Style.head} id="skills">
+    <div className={Style.headSkills} id="skills">
         <Slide>
       <main className={Style.main1}>Skills</main>
 
