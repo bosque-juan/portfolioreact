@@ -10,21 +10,21 @@ import Footer from "./presentational/Footer";
 function App() {
   return (
     <div className="body">
-      <Nav  />
+        <Nav />
 
-      <section>
+     <section>
         <Home />
       </section>
-      <section>
+       <section>
         <About />
       </section>
-      <section>
+     <section>
         <Skills />
-      </section>
-      <section>
+      </section> *
+        <section>
         <Portfolio />
       </section>
-      <section>
+    <section>
         <Contact />
       </section>
 

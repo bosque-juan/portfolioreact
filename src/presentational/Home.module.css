@@ -29,6 +29,13 @@ h6 {
 }
 
 @media screen and (max-width: 600px) {
+  .head {
+    display: none;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    padding-left: 1rem;
+  }
   .containerHome{
     display: flex;
     flex-direction: column;
