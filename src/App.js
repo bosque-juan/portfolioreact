@@ -20,7 +20,7 @@ function App() {
       </section>
      <section>
         <Skills />
-      </section> *
+      </section> 
         <section>
         <Portfolio />
       </section>

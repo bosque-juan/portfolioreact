@@ -31,30 +31,28 @@
 }
 
 .main1 {
-  position:relative;
+  position: relative;
   display: inline-block;
   padding-top: 7rem;
   font-size: 3rem;
   justify-content: center;
 }
 
-
 .main1::after {
-  content: ""; 
-  position: absolute; 
-  bottom: 0; 
-  left: 10%; 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%;
   width: 80%;
-  height: 1px; 
-  background-color: #b2ab2e; 
-  transition: all 0.3s ease; 
+  height: 1px;
+  background-color: #b2ab2e;
+  transition: all 0.3s ease;
 }
 
 .main1:hover::after {
   left: 0;
-  width: 100%; 
+  width: 100%;
 }
-
 
 ul {
   display: inline;
@@ -65,19 +63,28 @@ ul {
 }
 
 @media screen and (max-width: 600px) {
-  .containerSkills{
-    
+  .main1 {
+    padding-top: 2rem;
+    font-size: 2.5rem;
+  }
+  .containerSkills {
+    display: flex;
     flex-direction: column;
   }
   .skills {
-    width: 60%;
-margin-top: 3rem;}
-.develop {
-  margin-top: 6rem;
-}
-.headSkills{
-  display: none;
-}
+    width: 80%;
+    /* margin-top: 3rem; */
+  }
+  .develop {
+    margin-top: 2rem;
+  }
+  .image{
+    margin: 0rem;
+    height: 10rem;
+    width: 14rem;
+    border-radius: 20px;
+  }
+
 }
 
 /*.head {
