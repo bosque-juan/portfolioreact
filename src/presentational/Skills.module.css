@@ -70,21 +70,22 @@ ul {
   .containerSkills {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
   }
   .skills {
     width: 80%;
-    /* margin-top: 3rem; */
+    padding: 2rem;
   }
   .develop {
     margin-top: 2rem;
+    margin-bottom: 1rem;
   }
-  .image{
+  .image {
     margin: 0rem;
     height: 10rem;
     width: 14rem;
     border-radius: 20px;
   }
-
 }
 
 /*.head {
