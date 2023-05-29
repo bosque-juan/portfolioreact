@@ -7,7 +7,7 @@ export default function Portfolio() {
   return (
     <div id="portfolio" className={Style.headPortfolio}>
       <Slide left cascade>
-        <h1 className={Style.mainPortfolio}>Portfolio</h1>
+        <main className={Style.mainPortfolio}>Portfolio</main>
         <div className={Style.containerPortfolio}>
           <div className={Style.imgContainer}>
           

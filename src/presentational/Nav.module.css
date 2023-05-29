@@ -34,7 +34,7 @@ a {
   width: 65%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width:400px) and (max-width: 600px)  {
   .logo {
     display: flex;
 
@@ -46,6 +46,37 @@ a {
     width: 87%;
     justify-content: flex-start;
     gap:1rem;
+  }
+  a{ 
+    font-size:1rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .headNav {
+    position: fixed;
+
+    z-index: 1000;
+    width: 100vh;
+    display: flex;
+    height: 2rem;
+  
+    background-color: #012e4a;
+
+    border: solid 1px black;
+  }
+}
+@media screen and (max-width: 400px) {
+  .logo {
+    display: none;
+
+    padding: 0px;
+    left:1rem;
+  }
+  .links{
+    margin-right: 1rem;
+    margin-left: 2rem;
+    width: 100%;
+    justify-content: flex-start;
+    gap:0.5rem;
   }
   a{ 
     font-size:1rem;
