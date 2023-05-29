@@ -6,10 +6,13 @@ export default function About() {
   return (
     <div className={Style.head} id="about">
       <Slide>
-        <main className={Style.main}>About</main>
+        <main className={Style.mainAbout}>About</main>
 
-        <div className={Style.container}>
-          <img className={Style.img} src={img} alt="" />
+        <div className={Style.containerAbout}>
+         <div className={Style.imgContainer1}>
+
+          <img className={Style.imageAbout} src={img} alt="" />
+         </div>
 
           <div className={Style.about}>
             <h2>I am Juan Bosque</h2>
