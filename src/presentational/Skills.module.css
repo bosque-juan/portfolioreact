@@ -17,6 +17,10 @@
   width: 90%;
   justify-content: center;
 }
+ul:hover{
+  color:#471f1f;
+  background-color: #b2ab2e;
+}
 .image {
   margin: 12rem;
   display: block;
