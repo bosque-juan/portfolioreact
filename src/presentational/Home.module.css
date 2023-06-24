@@ -1,16 +1,16 @@
 .head {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   height: 100vh;
   padding-left: 1rem;
 }
 
 .containerHome {
-  display:grid;
+  display: grid;
   flex-wrap: wrap;
   align-items: center;
-  gap:10rem;
+  gap: 10rem;
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
   padding-left: 4rem;
@@ -25,24 +25,23 @@
 }
 
 h6 {
-    writing-mode:vertical-lr;
+  writing-mode: vertical-lr;
 }
 
 @media screen and (max-width: 600px) {
   .head {
-
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     height: 100vh;
     padding-left: 0rem;
   }
-  .containerHome{
+  .containerHome {
     display: flex;
     flex-direction: column;
-  padding-left: 3%;
-  gap:3rem;
+    padding-left: 3%;
+    gap: 3rem;
   }
-  h6{
-    display:none;
+  h6 {
+    display: none;
   }
 }

@@ -1,3 +1,4 @@
+
 .body {
   text-align: center;
   background: linear-gradient(#180c0c, #471f1f);
@@ -15,7 +16,7 @@ section {
   margin: 0;
 }
 :root {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 body {

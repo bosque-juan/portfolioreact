@@ -11,7 +11,9 @@
   width: 80%;
   grid-template-columns: repeat(2, 1fr);
 }
-
+.abouText{
+line-height: 3;
+}
 .imageAbout {
   margin: 12rem;
   height: 18rem;
