@@ -1,6 +1,7 @@
 .headPortfolio {
   display: grid;
   justify-items: center;
+  height: 100vh;
 }
 .mainPortfolio {
   position: relative;
@@ -10,12 +11,11 @@
   justify-content: center;
 }
 .containerPortfolio {
-  display: flex;
-  padding-top: 8%;
-  justify-content: center;
-  gap: 3rem;
-  height: 70vh;
-  width: 80%;
+  
+  display: flex; 
+  gap: 5rem;
+ 
+ 
 }
 
 .mainPortfolio::after {
@@ -35,11 +35,9 @@
 }
 
 .imgPortfolio {
-  display: flex;
-  justify-items: center;
-  margin-right: 4rem;
-  height: 14rem;
-  width: 24rem;
+  
+  height: 20rem;
+  width: 30rem;
   border-radius: 10px;
 }
 .imgContainer {
@@ -49,12 +47,12 @@
 
 .imgTitle {
   position: absolute;
-  top: 12%;
-  left: 43%;
+  top: 49%;
+  left: 50%;
   border-radius: 10px;
   transform: translate(-50%, -50%);
-  height: 15rem;
-  width: 23rem;
+  height: 20rem;
+  width: 30rem;
   align-items: center;
   color: #b2ab2e;
   padding: 10px;

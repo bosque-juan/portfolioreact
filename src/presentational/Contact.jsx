@@ -29,7 +29,7 @@ export default function Contact() {
           <textarea
             name="message"
             placeholder="Your Message"
-            id=""
+            id="textArea"
             cols="0"
             rows="8"
             required

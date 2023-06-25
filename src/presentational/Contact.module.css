@@ -68,7 +68,8 @@ input {
   font-weight: bolder;
   color: black;
   border-radius: 10px;
-  padding: 0.4rem;
+  width: 13rem;
+  padding: 0.8rem;
   background-color: bisque;
   border: black 1px solid;
 }
@@ -77,22 +78,25 @@ input {
   gap: 0.5rem;
 }
 .textArea {
+  /* box-sizing: content-box; */
   font-weight: bolder;
   color: black;
   border-radius: 10px;
   background-color: bisque;
-  padding-left: 1rem;
-  width: 23.5rem;
+  padding: 1rem 0.5rem;
+  width: 25rem;
   border: black 1px solid;
 }
 .button {
+  /* box-sizing: content-box; */
+
   font-weight: bolder;
   font-size: 1.2rem;
   color: black;
   border-radius: 10px;
   background-color: #b2ab2e;
-  padding: 0.5rem;
-  width: 25rem;
+  padding: 0.8rem;
+  width: 24.5rem;
   border: black 1px solid;
   font-family: "Courier New", Courier;
   cursor: grab;
@@ -112,7 +116,6 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
   }
   .data {
     margin-top: 1rem;
@@ -124,12 +127,16 @@ input {
     width: 16rem;
   }
   .textArea {
+    box-sizing: border-box;
+
     width: 15rem;
   }
   .button {
+    box-sizing: border-box;
+
     width: 16rem;
   }
-  .form{
-    gap:0.5rem;
+  .form {
+    gap: 0.5rem;
   }
 }

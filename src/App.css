@@ -1,4 +1,8 @@
-
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding: 0px;
+}
 .body {
   text-align: center;
   background: linear-gradient(#180c0c, #471f1f);
@@ -7,6 +11,7 @@
   align-items: center;
   font-family: 'Montserrat', sans-serif;
 font-family: 'Unbounded', cursive;
+
 }
 section {
   border-bottom: 1px solid white;
