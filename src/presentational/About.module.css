@@ -12,7 +12,7 @@
   grid-template-columns: repeat(2, 1fr);
 }
 .abouText{
-line-height: 3;
+line-height: 2.5;
 }
 .imageAbout {
   margin: 12rem;
@@ -64,7 +64,7 @@ line-height: 3;
   }
   .about {
     display: grid;
-    height: 45%;
+    height: 50%;
   }
   .containerAbout{
     position: relative;
