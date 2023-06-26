@@ -77,8 +77,7 @@ ul {
     gap: 2rem;
   }
   .skills {
-    width: 80%;
-    padding: 2rem;
+     width: 100%;
   }
   .develop {
     margin-top: 2rem;

@@ -36,9 +36,9 @@
 
 .imgPortfolio {
   
+  border-radius: 10px;
   height: 20rem;
   width: 30rem;
-  border-radius: 10px;
 }
 .imgContainer {
   position: relative;
@@ -92,8 +92,8 @@
     padding-top: 3rem;
     justify-content: center;
     margin-right: 0rem;
-    height: 8rem;
-    width: 12rem;
+    height: 15rem;
+    width: 20rem;
     border-radius: 10px;
   }
   .imgContainer {
@@ -103,12 +103,12 @@
   }
   .imgTitle {
     position: absolute;
-    top: 50%;
-    left: 550%;
+    top: 75%;
+    left: 490%;
     border-radius: 10px;
     transform: translate(-50%, -50%);
-    height: 7rem;
-    width: 12rem;
+    height: 15rem;
+    width: 20rem;
     align-items: center;
     color: #b2ab2e;
     padding: 10px;
