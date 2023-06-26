@@ -78,7 +78,6 @@ input {
   gap: 0.5rem;
 }
 .textArea {
-  /* box-sizing: content-box; */
   font-weight: bolder;
   color: black;
   border-radius: 10px;
@@ -88,8 +87,6 @@ input {
   border: black 1px solid;
 }
 .button {
-  /* box-sizing: content-box; */
-
   font-weight: bolder;
   font-size: 1.2rem;
   color: black;
@@ -133,10 +130,14 @@ input {
 
     width: 15rem;
   }
+  input {
+    justify-items: center;
+    width: 15rem;
+  }
   .button {
     box-sizing: border-box;
 
-    width: 16rem;
+    width: 15rem;
   }
   .form {
     gap: 0.5rem;
