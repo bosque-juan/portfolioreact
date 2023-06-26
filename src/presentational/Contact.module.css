@@ -124,6 +124,7 @@ input {
   .dataInput {
     display: grid;
     width: 16rem;
+    justify-items: center;
   }
   .textArea {
     box-sizing: border-box;
@@ -131,7 +132,7 @@ input {
     width: 15rem;
   }
   input {
-    justify-items: center;
+   
     width: 15rem;
   }
   .button {
