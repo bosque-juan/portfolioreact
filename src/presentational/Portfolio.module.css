@@ -36,8 +36,8 @@
 
 .imgPortfolio {
   
-  border-radius: 10px;
   height: 20rem;
+  border-radius: 10px;
   width: 30rem;
 }
 .imgContainer {
@@ -61,7 +61,7 @@
   backdrop-filter: blur(10px);
   font-family: "Courier New", Courier, monospace;
   font-size: 2rem;
-  line-height: 2rem;
+  line-height: 4rem;
   font-display: 1px;
 }
 .imgContainer:hover .imgTitle {
@@ -103,20 +103,20 @@
   }
   .imgTitle {
     position: absolute;
-    top: 75%;
-    left: 490%;
+    top: 88%;
+    left: 500%;
     border-radius: 10px;
     transform: translate(-50%, -50%);
-    height: 15rem;
+    height: 13rem;
     width: 20rem;
     align-items: center;
     color: #b2ab2e;
-    padding: 10px;
+    padding: 30px;
     opacity: 0;
     transition: opacity 0.3s;
     backdrop-filter: blur(10px);
     font-family: "Courier New", Courier, monospace;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 2rem;
     font-display: 1px;
   }
