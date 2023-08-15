@@ -16,11 +16,11 @@ export default function Skills() {
           
             <div className={Style.skills}> 
             <Fade cascade damping={0.1}>
-              <ul>Html</ul>
+              <ul>HTML</ul>
               <ul>Javascript</ul>
               <ul>React</ul>
               <ul>Redux</ul>
-              <ul>Css</ul>
+              <ul>CSS</ul>
               <ul>Node</ul>
               <ul>Sequelize</ul>
               <ul>Express</ul>

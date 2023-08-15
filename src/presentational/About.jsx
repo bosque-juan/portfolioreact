@@ -17,9 +17,9 @@ export default function About() {
             <h2>I am Juan Bosque</h2>
             <span>Full Stack Web Developer</span>
             <p className={Style.abouText}>
-              Passionate about what I do, I like to be learning, innovating,
-              doing something different, dedication, helping where I can. I like
-              solving situations
+              I am passionate about developing, learning, and doing things look
+              different. I like to make interesting and interactive websites;
+              where find data end have a good experience surfing there.
             </p>
 
             <div className={Style.iconContainer}>

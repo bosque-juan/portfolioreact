@@ -4,7 +4,7 @@ import Style from "./Home.module.css";
 
 export default function Home() {
   return (
-    <div className={Style.head} id="home">
+    <div className={Style.head} >
       <a href="#about">
         <i>
           <h6>Scroll Down</h6>
