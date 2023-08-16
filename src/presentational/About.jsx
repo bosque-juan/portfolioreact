@@ -1,5 +1,7 @@
 import Style from "./About.module.css";
 import img from "../assets/profile.jpg";
+import { BsListCheck } from "react-icons/bs";
+
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { Slide } from "react-awesome-reveal";
 export default function About() {
@@ -23,14 +25,19 @@ export default function About() {
             </p>
 
             <div className={Style.iconContainer}>
-              <a href="https://www.linkedin.com/in/juan-bosque">
+              <a href="https://www.linkedin.com/in/juan-bosque"  rel="noreferrer" target="_blank">
                 <i>
                   <AiFillLinkedin className={Style.icon} />{" "}
                 </i>
               </a>
-              <a href="https://www.github.com/juanchos85">
+              <a href="https://www.github.com/juanchos85"  rel="noreferrer" target="_blank">
                 <i>
                   <AiFillGithub className={Style.icon} />{" "}
+                </i>
+              </a>
+              <a href="https://drive.google.com/file/d/1tk12CfvNMmOBPen5WqmySJnWshI9nHgV/view?usp=drive_link" rel="noreferrer" target="_blank">
+                <i>
+                  <BsListCheck  className={Style.icon} />{" "}
                 </i>
               </a>
             </div>
