@@ -35,7 +35,7 @@ export default function About() {
                   <AiFillGithub className={Style.icon} />{" "}
                 </i>
               </a>
-              <a href="https://drive.google.com/file/d/1tk12CfvNMmOBPen5WqmySJnWshI9nHgV/view?usp=drive_link" rel="noreferrer" target="_blank">
+              <a href="https://drive.google.com/file/d/1oGIMfEbyTZ3EHaZAng8p64fEcZLsNQin/view?usp=drive_link" rel="noreferrer" target="_blank">
                 <i>
                   <BsListCheck  className={Style.icon} />{" "}
                 </i>
