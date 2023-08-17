@@ -27,17 +27,17 @@ export default function About() {
             <div className={Style.iconContainer}>
               <a href="https://www.linkedin.com/in/juan-bosque"  rel="noreferrer" target="_blank">
                 <i>
-                  <AiFillLinkedin className={Style.icon} />{" "}
+                  <AiFillLinkedin className={Style.icon} title="Linkedin"/>{" "}
                 </i>
               </a>
               <a href="https://www.github.com/juanchos85"  rel="noreferrer" target="_blank">
                 <i>
-                  <AiFillGithub className={Style.icon} />{" "}
+                  <AiFillGithub className={Style.icon} title="Git Hub"/>{" "}
                 </i>
               </a>
               <a href="https://drive.google.com/file/d/1oGIMfEbyTZ3EHaZAng8p64fEcZLsNQin/view?usp=drive_link" rel="noreferrer" target="_blank">
                 <i>
-                  <BsListCheck  className={Style.icon} />{" "}
+                  <BsListCheck  className={Style.icon} title="English CV" />{" "}
                 </i>
               </a>
             </div>
