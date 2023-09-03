@@ -1,3 +1,5 @@
+
+
 import Style from "./About.module.css";
 import img from "../assets/profile.jpg";
 import { BsListCheck } from "react-icons/bs";
@@ -25,19 +27,31 @@ export default function About() {
             </p>
 
             <div className={Style.iconContainer}>
-              <a href="https://www.linkedin.com/in/juan-bosque"  rel="noreferrer" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/juan-bosque"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <i>
-                  <AiFillLinkedin className={Style.icon} title="Linkedin"/>{" "}
+                  <AiFillLinkedin className={Style.icon} title="Linkedin" />{" "}
                 </i>
               </a>
-              <a href="https://www.github.com/juanchos85"  rel="noreferrer" target="_blank">
+              <a
+                href="https://www.github.com/juanchos85"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <i>
-                  <AiFillGithub className={Style.icon} title="Git Hub"/>{" "}
+                  <AiFillGithub className={Style.icon} title="Git Hub" />{" "}
                 </i>
               </a>
-              <a href="https://drive.google.com/file/d/1oGIMfEbyTZ3EHaZAng8p64fEcZLsNQin/view?usp=drive_link" rel="noreferrer" target="_blank">
+              <a
+                href="https://drive.google.com/file/d/1oGIMfEbyTZ3EHaZAng8p64fEcZLsNQin/view?usp=drive_link"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <i>
-                  <BsListCheck  className={Style.icon} title="English CV" />{" "}
+                  <BsListCheck className={Style.icon} title="English CV" />{" "}
                 </i>
               </a>
             </div>
