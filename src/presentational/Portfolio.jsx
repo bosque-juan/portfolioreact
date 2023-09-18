@@ -26,7 +26,7 @@ export default function Portfolio() {
           <div className={Style.imgContainer}>
         
               <img className={Style.imgPortfolio} src={recipess} alt="" /> 
-            <a href="https://recipes-responsive.vercel.app/">
+            <a href="https://recipes-food-app-responsive.vercel.app/">
             <h5 className={Style.imgTitle}>
               Food Recipes App
               <br/>  to make your food!
