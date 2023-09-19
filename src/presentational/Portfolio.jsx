@@ -11,7 +11,7 @@ export default function Portfolio() {
         <div className={Style.containerPortfolio}>
           <div className={Style.imgContainer}>
           
-              <img className={Style.imgPortfolio} src={landingS} alt="" /> 
+              <img className={Style.imgPortfolio} src={landingS} alt="weather app" /> 
             <a href="https://weatherappjb.vercel.app/">
             <h5 className={Style.imgTitle}>
               Weather App
@@ -25,8 +25,8 @@ export default function Portfolio() {
 
           <div className={Style.imgContainer}>
         
-              <img className={Style.imgPortfolio} src={recipess} alt="" /> 
-            <a href="https://recipes-food-app-responsive.vercel.app/">
+              <img className={Style.imgPortfolio} src={recipess} alt="recipes app" /> 
+            <a href="https://recipesjb.vercel.app/">
             <h5 className={Style.imgTitle}>
               Food Recipes App
               <br/>  to make your food!
