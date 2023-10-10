@@ -1,5 +1,3 @@
-
-
 import Style from "./About.module.css";
 import img from "../assets/profile.jpg";
 import { BsListCheck } from "react-icons/bs";
@@ -21,9 +19,10 @@ export default function About() {
             <h2>I am Juan Bosque</h2>
             <span>Full Stack Web Developer</span>
             <p className={Style.abouText}>
-              I am passionate about developing, learning, and doing things look
-              different. I like to make interesting and interactive websites;
-              where find data end have a good experience surfing there.
+              I am motivated by innovation and
+              developing interactive web pages. That the user has a pleasant
+              browsing experience. Passionate about developing, learning,
+              and doing things look different.
             </p>
 
             <div className={Style.iconContainer}>
@@ -33,7 +32,7 @@ export default function About() {
                 target="_blank"
               >
                 <i>
-                  <AiFillLinkedin className={Style.icon} title="Linkedin" />{" "}
+                  <AiFillLinkedin className={Style.icon} title="Linkedin" />
                 </i>
               </a>
               <a
@@ -42,11 +41,11 @@ export default function About() {
                 target="_blank"
               >
                 <i>
-                  <AiFillGithub className={Style.icon} title="Git Hub" />{" "}
+                  <AiFillGithub className={Style.icon} title="Git Hub" />
                 </i>
               </a>
               <a
-                href="https://drive.google.com/file/d/1oGIMfEbyTZ3EHaZAng8p64fEcZLsNQin/view?usp=drive_link"
+                href="https://drive.google.com/file/d/17uJoX3mXOXwAFy4Kna_Zb-3VctSJUHJX/view?usp=sharing"
                 rel="noreferrer"
                 target="_blank"
               >
