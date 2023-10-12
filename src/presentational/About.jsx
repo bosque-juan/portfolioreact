@@ -45,7 +45,7 @@ export default function About() {
                 </i>
               </a>
               <a
-                href="https://drive.google.com/file/d/17uJoX3mXOXwAFy4Kna_Zb-3VctSJUHJX/view?usp=sharing"
+                href="https://drive.google.com/file/d/1aqVBatZRtMDzdbZkpSe_pCf66AmynbPc/view?usp=sharing"
                 rel="noreferrer"
                 target="_blank"
               >
