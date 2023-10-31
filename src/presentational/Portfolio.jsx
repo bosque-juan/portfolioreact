@@ -26,7 +26,7 @@ export default function Portfolio() {
           <div className={Style.imgContainer}>
         
               <img className={Style.imgPortfolio} src={recipess} alt="recipes app" /> 
-            <a href="https://recipesjb.netlify.app/">
+            <a href="https://recipesjb.vercel.app/">
             <h5 className={Style.imgTitle}>
               Food Recipes App
               <br/>  making your food!
