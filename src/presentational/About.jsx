@@ -19,15 +19,14 @@ export default function About() {
             <h2>I am Juan Bosque</h2>
             <span>Full Stack Web Developer</span>
             <p className={Style.abouText}>
-              I am motivated by innovation and
-              developing interactive web pages. That the user has a pleasant
-              browsing experience. Passionate about developing, learning,
-              and doing things look different.
+              I am motivated by innovation and developing interactive web pages.
+              That the user has a pleasant browsing experience. Passionate about
+              developing, learning, and doing things look different.
             </p>
 
             <div className={Style.iconContainer}>
               <a
-                href="https://www.linkedin.com/in/juan-bosque"
+                href="https://www.linkedin.com/in/juanchosbosquedev"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -36,7 +35,7 @@ export default function About() {
                 </i>
               </a>
               <a
-                href="https://www.github.com/juanchos85"
+                href="https://www.github.com/juanchosbosquedev"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -45,7 +44,7 @@ export default function About() {
                 </i>
               </a>
               <a
-                href="https://drive.google.com/file/d/1aqVBatZRtMDzdbZkpSe_pCf66AmynbPc/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_KbNV9wRaCkkKE6mPorkNMbynSQ3ZYqi/view?usp=drive_link"
                 rel="noreferrer"
                 target="_blank"
               >
