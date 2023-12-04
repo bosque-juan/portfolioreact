@@ -22,9 +22,9 @@ export default function Home() {
           <div>
             <h5 style={{fontSize:'1.7rem'}}>FULL STACK WEB DEVELOPER</h5>
             <h3 style={{fontSize:'2.5rem'}}>
-              Hi, I am Juan
+              Hello, and Welcome to my personal portfolio!
               <br />
-              from Argentina
+              My name is Juan and I am from Argentina
             </h3>
           </div>
         </Slide>

@@ -16,12 +16,14 @@ export default function About() {
           </div>
 
           <div className={Style.about}>
-            <h2>I am Juan Bosque</h2>
+            <h2>Juan Bosque</h2>
             <span>Full Stack Web Developer</span>
             <p className={Style.abouText}>
-              I am motivated by innovation and developing interactive web pages.
-              That the user has a pleasant browsing experience. Passionate about
-              developing, learning, and doing things look different.
+              An experience one, with more than a year on this field.
+              Responsible, committed. I feel like having challenges, achieving
+              goals with the team. I like innovation, developing interactive web
+              pages; with special attention to user experience; making web and
+              responsives wev apps
             </p>
 
             <div className={Style.iconContainer}>
