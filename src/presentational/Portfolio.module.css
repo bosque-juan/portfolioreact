@@ -9,10 +9,13 @@
   padding-top: 7rem;
   font-size: 3rem;
   justify-content: center;
+  transition: all 0.3s ease;
+
 }
 .containerPortfolio {
   
   display: flex; 
+  flex-wrap: wrap;
   gap: 5rem;
  
  
@@ -26,7 +29,6 @@
   width: 80%;
   height: 1px;
   background-color: #b2ab2e;
-  transition: all 0.3s ease;
 }
 
 .mainPortfolio:hover::after {
