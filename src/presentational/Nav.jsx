@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <div className={Style.headNav}>
       <div className={Style.logo}>JB</div>
-      <div className={Style.links}>
+      <nav className={Style.links}>
         <span>
           <a href="#home">Home</a>
         </span>
@@ -20,7 +20,7 @@ export default function Nav() {
         <span>
           <a href="#contact">Contact</a>
         </span>
-      </div>
+      </nav>
     </div>
   );
 }

@@ -3,7 +3,7 @@
   z-index: 1000;
   width: 100%;
   display: flex;
-  height: 4rem;
+  height: 5rem;
   justify-content: flex-end;
   background-color: #012e4a;
   align-items: center;
@@ -11,29 +11,52 @@
 }
 .logo {
   position: absolute;
+  display: flex;
   left: 4rem;
-
+  height: 3rem;
+  width: 3rem;
   border: #82ff04 solid 1px;
   border-radius: 60px;
-
-  padding: 0.5rem;
-
-  color:#82ff04;
+  align-items: center;
+  place-content: center;
+   color:#82ff04;
+   transition: .3s ease-in-out;
 }
-a {
+.logo:hover{
+  box-shadow:0px 1px  30px #82ff04;
+}
+.links >span>a {
   color: #e4e8f4;
-  font-size: 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
   text-decoration: solid;
+  transition:.3s ease-in-out
 }
+/* .links >span>a:hover{
+  color:#82ff04;
+  
+} */
 
+
+/* .links > span > a:active::after {
+  color: #82ff04;
+} */
 .links {
   display: flex;
-  justify-content: space-between;
-  margin-right: 8rem;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 8rem; */
 
-  width: 65%;
+  /* width: 65%; */
 }
-
+.links >span{
+  position: relative;
+  padding: 0 20px;
+}
+.links > span > a:active,
+.links > span > a:active::after{
+  color: #82ff04;
+}
 @media screen and (min-width:400px) and (max-width: 600px)  {
   .logo {
     display: flex;
