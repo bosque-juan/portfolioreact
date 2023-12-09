@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Style from "./Nav.module.css";
 
 export default function Nav() {
-  const [activeLink, setActiveLink] = useState("");
+  const [activeLink, setActiveLink] = useState("home");
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
@@ -61,4 +61,6 @@ export default function Nav() {
     </div>
   );
 }
-
+<a className={Style.active} href="#home">
+  Home
+</a>;
