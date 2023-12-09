@@ -61,6 +61,4 @@ export default function Nav() {
     </div>
   );
 }
-<a className={Style.active} href="#home">
-  Home
-</a>;
+
