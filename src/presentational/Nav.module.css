@@ -36,12 +36,6 @@
   color: rgb(235, 120, 235);
 }
 
-.links > span > a:hover::after,
-.links > span > a.active::after {
-  content: "";
-  color: #82ff04;
-  position: absolute;
-}
 .links {
   display: flex;
   align-items: center;
@@ -51,7 +45,7 @@
   position: relative;
   padding: 0 20px;
 }
-.active{
+.active {
   color: #82ff04 !important;
 }
 @media screen and (min-width: 400px) and (max-width: 600px) {
