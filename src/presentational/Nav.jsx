@@ -6,7 +6,7 @@ export default function Nav() {
       <div className={Style.logo}>JB</div>
       <nav className={Style.links}>
         <span>
-          <a href="#home">Home</a>
+          <a className="active" href="#home">Home</a>
         </span>
         <span>
           <a href="#about">About</a>

@@ -32,15 +32,13 @@
   text-decoration: solid;
   transition:.3s ease-in-out
 }
-/* .links >span>a:hover{
+.links span a:hover{
   color:#82ff04;
   
-} */
+}
 
 
-/* .links > span > a:active::after {
-  color: #82ff04;
-} */
+
 .links {
   display: flex;
   align-items: center;
@@ -53,10 +51,9 @@
   position: relative;
   padding: 0 20px;
 }
-.links > span > a:active,
-.links > span > a:active::after{
-  color: #82ff04;
-}
+
+
+
 @media screen and (min-width:400px) and (max-width: 600px)  {
   .logo {
     display: flex;

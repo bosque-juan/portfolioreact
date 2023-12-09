@@ -12,19 +12,19 @@ function App() {
     <div className="body">
       <Nav />
 
-      <section>
+      <section id="home">
         <Home />
       </section>
-      <section>
+      <section id="about">
         <About />
       </section>
-      <section>
+      <section id="skills">
         <Skills />
       </section>
-      <section>
+      <section id="portfolio">
         <Portfolio />
       </section>
-      <section>
+      <section id="contact">
         <Contact />
       </section>
 
@@ -32,5 +32,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
