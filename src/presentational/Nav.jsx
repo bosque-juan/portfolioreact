@@ -3,6 +3,28 @@ import Style from "./Nav.module.css";
 
 export default function Nav() {
   const [activeLink, setActiveLink] = useState("home");
+  const [menu, setMenu] = useState(true);
+  const [small, setSmall] = useState(false);
+
+  const handleResize = () => {
+    if (window.innerWidth < 700) {
+      setMenu(false);
+
+      setSmall(true);
+    } else {
+      setMenu(true);
+      setSmall(false);
+    }
+  };
+
+  useEffect(() => {
+    handleResize();
+    window.addEventListener("resize", handleResize());
+    return () => {
+      window.removeEventListener("resize", handleResize());
+    };
+  }, [small]);
+
   function Close() {
     setMenu(!menu);
   }
@@ -10,29 +32,8 @@ export default function Nav() {
     setActiveLink(link);
     small && Close();
   };
-  const [menu, setMenu] = useState(true);
 
-  const [small, setSmall] = useState(false);
-
-  const handleResize = () => {
-    if (window.innerWidth <= 700) {
-      setMenu(false);
-
-      setSmall(true);
-    } else {
-      setMenu(true);
-      // setShowButton(false);
-      setSmall(false);
-    }
-  };
-
-  useEffect(() => {
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, [small]);
+ 
 
   return (
     <div className={Style.headNav}>
