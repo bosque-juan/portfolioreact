@@ -33,7 +33,7 @@
   transition: 0.3s ease-in-out;
 }
 .links span a:hover {
-  color: #82ff04;
+  color: rgb(235, 120, 235);
 }
 
 .links > span > a:hover::after,
@@ -51,7 +51,9 @@
   position: relative;
   padding: 0 20px;
 }
-
+.active{
+  color: #82ff04 !important;
+}
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .logo {
     display: flex;
