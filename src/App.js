@@ -10,21 +10,21 @@ import Footer from "./presentational/Footer";
 function App() {
   return (
     <div className="body">
-      <Nav />
+        <Nav />
 
-      <section id="home">
+     <section>
         <Home />
       </section>
-      <section id="about">
+       <section>
         <About />
       </section>
-      <section id="skills">
+     <section>
         <Skills />
-      </section>
-      <section id="portfolio">
+      </section> 
+        <section>
         <Portfolio />
       </section>
-      <section id="contact">
+    <section>
         <Contact />
       </section>
 
@@ -32,6 +32,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
