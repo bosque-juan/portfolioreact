@@ -20,10 +20,12 @@ export default function Nav() {
   useEffect(() => {
     handleResize();
     window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", alert("hola"));
+
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [small]);
+  }, []);
 
   function Close() {
     setMenu(!menu);
