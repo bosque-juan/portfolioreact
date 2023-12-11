@@ -1,12 +1,15 @@
 .headSkills {
   display: grid;
   justify-items: center;
+  max-height: 100vh;
+
+  
 }
 .containerSkills {
   display: grid;
   align-items: center;
-  height: 100vh;
   grid-template-columns: repeat(2, 1fr);
+
 }
 .skills {
   display: flex;
@@ -67,14 +70,21 @@ ul {
 }
 
 @media screen and (max-width: 600px) {
+  .headSkills {
+   padding: 2rem;
+  
+  }
   .main1 {
     padding-top: 2rem;
     font-size: 2.5rem;
   }
   .containerSkills {
+    max-height: 80vh;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    overflow-y:auto;
+
   }
   .skills {
      width: 100%;
@@ -91,34 +101,3 @@ ul {
   }
 }
 
-/*.head {
-  display: grid;
-  justify-items: center;
-  height: 100vh;
-}
-
-.main1 {
-  padding-top: 3rem;
-  font-size: 3rem;
-  text-transform: capitalize;
-  border-bottom: 1px solid #b2ab2e;
-  justify-content: center;
-  border-color: aqua solid normal;
-}
-
-.container {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
- 
-  width: 80%;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.image {
-  display: block;
-  size-adjust: inherit;
-}
-*/
