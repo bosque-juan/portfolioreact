@@ -10,15 +10,11 @@
   font-size: 3rem;
   justify-content: center;
   transition: all 0.3s ease;
-
 }
 .containerPortfolio {
-  
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   gap: 5rem;
- 
- 
 }
 
 .mainPortfolio::after {
@@ -37,7 +33,6 @@
 }
 
 .imgPortfolio {
-  
   height: 20rem;
   border-radius: 10px;
   width: 30rem;
@@ -73,36 +68,31 @@
 }
 @media screen and (max-width: 600px) {
   .mainPortfolio {
-    padding-top: 2rem;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
     font-size: 2.5rem;
   }
   .containerPortfolio {
-    display: flex;
+    max-height: 80vh;
     flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 2rem;
-    height: 70vh;
-    width: 10%;
-    
+    overflow-y: auto;
+    flex-wrap: nowrap;
   }
   .imgContainer {
     position: relative;
     display: inline-block;
+    width: 20rem;
+    height: 15rem;
   }
   .imgPortfolio {
-    display: grid;
-    padding-top: 3rem;
+
+    padding-top: 0rem;
     justify-content: center;
-    margin-right: 0rem;
     height: 15rem;
     width: 20rem;
     border-radius: 10px;
   }
-  .imgContainer {
-    position: relative;
-    display: inline-block;
-    height: 10rem;
-  }
+
   .imgTitle {
     position: absolute;
     top: 88%;
