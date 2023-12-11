@@ -1,18 +1,19 @@
 .headNav {
   position: fixed;
   z-index: 1000;
-  width: 100%;
+  width: 100vw;
   display: flex;
   height: 5rem;
   justify-content: flex-end;
   background-color: #012e4a;
   align-items: center;
   border: solid 1px black;
+
 }
 .logo {
   position: absolute;
   display: flex;
-  left: 4rem;
+  left: 3rem;
   height: 3rem;
   width: 3rem;
   border: #82ff04 solid 1px;
@@ -30,6 +31,7 @@
   align-items: center;
   justify-content: center;
   transition: opacity 0.3s ease-in-out;
+  margin-right: 4rem;
 }
 
 .linksClose {
@@ -124,6 +126,11 @@
  
 } */
 @media screen and (max-width: 700px) {
+
+  
+  .logo{
+    left:2rem;
+  }
   .mobile {
     position: relative;
     display: block;
@@ -131,18 +138,19 @@
   }
   .mobile i {
     font-size: 24px;
-    cursor: pointer;
+    cursor:grab;
+    margin-right: 2rem;
   }
 
   .links {
-    position: fixed;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    top: 90px;
+    top: 70px;
     right: 0;
-    height: 50vh;
+    height: 30vh;
     background-color: #012e4a;
     box-shadow: 0 40px 60px rgb(o, o, 0, 0.1);
     padding: 40px 0 0 10px;

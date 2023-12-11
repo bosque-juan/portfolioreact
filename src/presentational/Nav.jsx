@@ -9,6 +9,7 @@ export default function Nav() {
   const handleResize = () => {
     if (window.screen.width < 700) {
       setMenu(false);
+
       setSmall(true);
     } else {
       setMenu(true);
@@ -18,7 +19,7 @@ export default function Nav() {
 
   useEffect(() => {
     handleResize();
-
+  
     window.addEventListener("resize", handleResize);
 
     return () => {
@@ -31,8 +32,11 @@ export default function Nav() {
   }
   const handleLinkClick = (link) => {
     setActiveLink(link);
+
     small && Close();
   };
+
+ 
 
   return (
     <div className={Style.headNav}>
