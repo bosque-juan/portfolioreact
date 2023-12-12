@@ -35,7 +35,7 @@ h6 {
   writing-mode: vertical-lr;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .head {
     height: 100vh;
   
