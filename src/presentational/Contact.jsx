@@ -1,4 +1,4 @@
-import Style from './Contact.module.css'
+import Style from "./Contact.module.css";
 export default function Contact() {
   return (
     <div id="contact" className={Style.headContact}>
@@ -13,7 +13,7 @@ export default function Contact() {
           <span>+54 351 7674416</span>
 
           <h1>ADRESS</h1>
-          <span>Argentina, Córdoba, Córdoba</span>
+          <span>Córdoba, Córdoba, Argentina </span>
         </div>
 
         <form
@@ -22,8 +22,14 @@ export default function Contact() {
           className={Style.form}
         >
           <div className={Style.dataInput}>
-            <input  type="text" name="name" placeholder="Name" required />
-            <input id="email" type="mail" name="email" placeholder="Email" required />
+            <input type="text" name="name" placeholder="Name" required />
+            <input
+              id="email"
+              type="mail"
+              name="email"
+              placeholder="Email"
+              required
+            />
           </div>
 
           <textarea
