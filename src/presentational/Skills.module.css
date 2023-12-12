@@ -71,7 +71,7 @@ ul {
 
 @media screen and (max-width: 900px) {
   .headSkills {
-   padding: 2rem;
+   padding: 1.5rem;
   
   }
   .main1 {
@@ -83,7 +83,7 @@ ul {
     max-height: 80vh;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: .5rem;
     overflow-y:auto;
 
   }

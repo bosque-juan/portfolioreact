@@ -68,8 +68,7 @@
 }
 @media screen and (max-width: 900px) {
   .mainPortfolio {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem .6rem 0rem;
     font-size: 2.5rem;
   }
   .containerPortfolio {
