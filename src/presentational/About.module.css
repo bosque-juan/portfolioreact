@@ -11,12 +11,12 @@
   width: 80%;
   grid-template-columns: repeat(2, 1fr);
 }
-.about{
+.about {
   display: grid;
-gap:1.5rem;
+  gap: 1.5rem;
 }
-.abouText{
-line-height: 2.5;
+.abouText {
+  line-height: 2.5;
 }
 .imageAbout {
   margin: 12rem;
@@ -26,28 +26,27 @@ line-height: 2.5;
 }
 
 .mainAbout {
-  position:relative;
+  position: relative;
   display: inline-block;
   padding-top: 7rem;
   font-size: 3rem;
   justify-content: center;
 }
 
-
 .mainAbout::after {
-  content: ""; 
-  position: absolute; 
-  bottom: 0; 
-  left: 10%; 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%;
   width: 80%;
-  height: 1px; 
-  background-color: #b2ab2e; 
-  transition: all 0.3s ease; 
+  height: 1px;
+  background-color: #b2ab2e;
+  transition: all 0.3s ease;
 }
 
 .mainAbout:hover::after {
   left: 0;
-  width: 100%; 
+  width: 100%;
 }
 
 .icon {
@@ -62,6 +61,12 @@ line-height: 2.5;
 }
 
 @media screen and (max-width: 600px) {
+  .head {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+  }
   .mainAbout {
     padding-top: 2rem;
     font-size: 2.5rem;
@@ -70,16 +75,16 @@ line-height: 2.5;
     display: grid;
     height: 50%;
   }
-  .containerAbout{
-    position: relative;
+  .about > span{
+    margin:-1rem 0;
+  }
+  .containerAbout {
     display: flex;
+    height: 0;
+    width: 85vw;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    left:10%;
-    gap:0rem;
-    
-    
+    height: auto;
+    gap: 0rem;
   }
   .imageAbout {
     display: block;
@@ -95,4 +100,7 @@ line-height: 2.5;
   .imgContainer1 {
     position: relative;
   }
+  .abouText {
+    line-height: 1.9;
   }
+}

@@ -83,6 +83,7 @@
     flex-direction: column;
     top: 70px;
     right: 0;
+    margin-right: .6rem;
     height: 30vh;
     background-color: #012e4a;
     box-shadow: 0 40px 60px rgb(o, o, 0, 0.1);
