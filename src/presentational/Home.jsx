@@ -21,7 +21,7 @@ export default function Home() {
         <Slide right>
           <div>
             <h3 className={Style.mainTitle}>
-              Hello, and Welcome to my personal portfolio!
+              Welcome to my personal portfolio!
             </h3>
           </div>
         </Slide>
