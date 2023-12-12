@@ -23,7 +23,7 @@ export default function About() {
               committed. I like having challenges, achieving goals with the
               team. I like innovation, developing interactive web pages; with
               special attention to user experience; making web and responsives
-              wev apps. I follow the last tendence and I always learning new
+              wev apps. I follow the last tendence and I am always learning new
               tools or deepen wich I know
             </p>
 
