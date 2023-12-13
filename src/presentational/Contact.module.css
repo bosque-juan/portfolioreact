@@ -75,7 +75,7 @@ input {
 }
 .dataInput {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 .textArea {
   font-weight: bolder;
@@ -83,7 +83,7 @@ input {
   border-radius: 10px;
   background-color: bisque;
   padding: 1rem 0.5rem;
-  width: 25rem;
+  width: 27rem;
   border: black 1px solid;
 }
 .button {
@@ -93,7 +93,7 @@ input {
   border-radius: 10px;
   background-color: #b2ab2e;
   padding: 0.8rem;
-  width: 24.5rem;
+  width: 27rem;
   border: black 1px solid;
   font-family: "Courier New", Courier;
   cursor: grab;
