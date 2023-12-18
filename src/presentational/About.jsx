@@ -47,12 +47,12 @@ export default function About() {
                 </i>
               </a>
               <a
-                href="https://drive.google.com/file/d/1_KbNV9wRaCkkKE6mPorkNMbynSQ3ZYqi/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1mnS6O1DljgCoMfVFt8Tx7Io6nh2yklup/view?usp=sharing"
                 rel="noreferrer"
                 target="_blank"
               >
                 <i>
-                  <BsListCheck className={Style.icon} title="English CV" />{" "}
+                  <BsListCheck className={Style.icon} title="English CV" />
                 </i>
               </a>
             </div>
