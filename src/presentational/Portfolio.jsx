@@ -63,7 +63,7 @@ export default function Portfolio() {
               src={Ecommerce}
               alt="Ecommerce"
             />
-            <a href="https://ecommercejb.vercel.app//">
+            <a href="https://ecommercejb.vercel.app/">
               <h5 className={Style.imgTitle}>
                 Ecommerce
                 <br /> Clothes
