@@ -2,6 +2,7 @@ import { Slide } from "react-awesome-reveal";
 import landingS from "../assets/landingS.png";
 import recipess from "../assets/recipess.png";
 import Athenas from "../assets/Athenas.png";
+import Ecommerce from "../assets/ecommerce.png";
 
 import Style from "./Portfolio.module.css";
 
@@ -26,7 +27,6 @@ export default function Portfolio() {
               </h5>
             </a>
           </div>
-
           <div className={Style.imgContainer}>
             <img
               className={Style.imgPortfolio}
@@ -57,7 +57,21 @@ export default function Portfolio() {
               </h5>
             </a>
           </div>
-   
+          <div className={Style.imgContainer}>
+            <img
+              className={Style.imgPortfolio}
+              src={Ecommerce}
+              alt="Ecommerce"
+            />
+            <a href="https://ecommercejb.vercel.app//">
+              <h5 className={Style.imgTitle}>
+                Ecommerce
+                <br /> Clothes
+                <br />
+                click
+              </h5>
+            </a>
+          </div>
         </div>
       </Slide>
     </div>
