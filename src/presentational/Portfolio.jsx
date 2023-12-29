@@ -35,7 +35,7 @@ export default function Portfolio() {
             />
             <a href="https://recipesjb.vercel.app/">
               <h5 className={Style.imgTitle}>
-                Food Recipes App
+                Recipes App
                 <br /> making your food!
                 <br />
                 click
