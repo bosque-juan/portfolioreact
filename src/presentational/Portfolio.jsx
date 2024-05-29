@@ -1,8 +1,9 @@
 import { Slide } from "react-awesome-reveal";
-import landingS from "../assets/landingS.png";
+// import landingS from "../assets/landingS.png";
 import recipess from "../assets/recipess.png";
 import Athenas from "../assets/Athenas.png";
 import Ecommerce from "../assets/ecommerce.png";
+import Dog from '../assets/happydogCover.png'
 
 import Style from "./Portfolio.module.css";
 
@@ -12,7 +13,7 @@ export default function Portfolio() {
       <Slide left cascade>
         <main className={Style.mainPortfolio}>Portfolio</main>
         <div className={Style.containerPortfolio}>
-          <div className={Style.imgContainer}>
+          {/* <div className={Style.imgContainer}>
             <img
               className={Style.imgPortfolio}
               src={landingS}
@@ -22,6 +23,21 @@ export default function Portfolio() {
               <h5 className={Style.imgTitle}>
                 Weather App
                 <br /> find up the forecast!
+                <br />
+                click
+              </h5>
+            </a>
+          </div> */}
+            <div className={Style.imgContainer}>
+            <img
+              className={Style.imgPortfolio}
+              src={Dog}
+              alt="happy dog"
+            />
+            <a href="https://happy-dog-front.vercel.app/">
+              <h5 className={Style.imgTitle}>
+                Happy Dog
+                <br /> Addopt your dog
                 <br />
                 click
               </h5>
@@ -36,7 +52,7 @@ export default function Portfolio() {
             <a href="https://recipesjb.vercel.app/">
               <h5 className={Style.imgTitle}>
                 Recipes App
-                <br /> making your food!
+                <br /> making your own food!
                 <br />
                 click
               </h5>
