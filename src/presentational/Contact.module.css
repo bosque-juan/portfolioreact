@@ -78,6 +78,10 @@ input {
   gap: 1rem;
 }
 .textArea {
+  width: 100%;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  resize: none;
   font-weight: bolder;
   color: black;
   border-radius: 10px;
@@ -103,7 +107,7 @@ input {
   background-color: #afa820;
   transform: translateY(-10px);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .headContact {
     width: 100%;
   }

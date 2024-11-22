@@ -13,7 +13,7 @@ export default function Contact() {
           <span>+54 351 7674416</span>
 
           <h1>ADRESS</h1>
-          <span>Córdoba, Córdoba, Argentina </span>
+          <span> Córdoba, Argentina </span>
         </div>
 
         <form
@@ -37,7 +37,7 @@ export default function Contact() {
             placeholder="Your Message"
             id="textArea"
             cols="0"
-            rows="8"
+            rows="4"
             required
             className={Style.textArea}
           ></textarea>
