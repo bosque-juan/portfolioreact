@@ -1,0 +1,9 @@
+/* con font face invocas al archivo que descargas de google fonts
+ý se le indica el tipo de formato, luego se invoca este archivo en el html y listo */
+@font-face {
+  font-family: 'Unbounded';
+  src: url('./Unbounded/Unbounded-VariableFont_wght.ttf') format('truetype');
+  font-weight: 900; /* muy importante si es variable */
+  font-style: normal;
+  font-display: swap;   /* para que se comporte similar a Google Fonts */
+}
