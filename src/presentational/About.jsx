@@ -9,10 +9,9 @@ export default function About() {
     <div className={Style.head} id="about">
       <Slide>
         <main className={Style.mainAbout}>About</main>
-
         <div className={Style.containerAbout}>
           <div className={Style.imgContainer1}>
-            <img className={Style.imageAbout} src={img} alt="" />
+            <img className={Style.imageAbout} src={img} alt="Juan Bosque Image"/>
           </div>
 
           <div className={Style.about}>
@@ -27,9 +26,9 @@ export default function About() {
               tools or deepen wich I know
             </p>
 
-            <div className={Style.iconContainer}>
+            <ul className={Style.iconContainer}>
               <a
-                href="https://www.linkedin.com/in/juanchosbosquedev"
+                href="https://www.linkedin.com/in/juan-bosque"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -38,7 +37,7 @@ export default function About() {
                 </i>
               </a>
               <a
-                href="https://www.github.com/juanchosbosquedev"
+                href="https://github.com/bosque-juan"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -46,16 +45,14 @@ export default function About() {
                   <AiFillGithub className={Style.icon} title="Git Hub" />
                 </i>
               </a>
-              <a
-                href="https://drive.google.com/file/d/1mnS6O1DljgCoMfVFt8Tx7Io6nh2yklup/view?usp=sharing"
-                rel="noreferrer"
-                target="_blank"
-              >
+
+              <a href="https://drive.google.com/file/d/1Fm9Cy_PZEhc1hNLy-36TC4W3LZw_7btA/view" rel="noreferrer"
+                target="_blank" >
                 <i>
                   <BsListCheck className={Style.icon} title="English CV" />
                 </i>
               </a>
-            </div>
+            </ul>
           </div>
         </div>
       </Slide>
