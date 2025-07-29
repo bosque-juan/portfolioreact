@@ -28,13 +28,10 @@ export default function Footer() {
                         Outlook</a></li>
                     <li><a href="https://wa.me/5493515372020?text=Hola%20Juan,%20quiero%20saber%20más%20sobre%20tu%20trabajo"
                         target="_blank" rel="noreferrer">WhatsApp</a></li>
-                    <li><a href="https://drive.google.com/file/d/1Fm9Cy_PZEhc1hNLy-36TC4W3LZw_7btA/view
-"   rel="noreferrer">Resume</a></li>
+                    <li><a href="https://drive.google.com/file/d/1Fm9Cy_PZEhc1hNLy-36TC4W3LZw_7btA/view"   rel="noreferrer">Resume</a></li>
                 </ul>
             </div>
             {/* <strong> JUAN BOSQUE </strong> - Copyrights 2029 */}
-
-
         </footer>)
 
 }

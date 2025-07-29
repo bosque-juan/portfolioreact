@@ -18,7 +18,6 @@
 }
 
 .flex__footer_items ul {
-
     display: flex;
     flex-direction: column;
     list-style: none;
