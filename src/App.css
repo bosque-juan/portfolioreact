@@ -1,39 +1,125 @@
-*{
+:root {
+  font-size: clamp(0.6rem, .3vw + 0.5rem, 1.25rem);
+  /*light*/
+  --wine-colored: #219ebc;
+  --letters: #504f4d;
+  --effects: #504f4d;
+  /*dark*/
+  --wine-colored: #771a1a;
+  --letters: hsl(57, 94%, 65%);
+  --letters_opacity: hsl(57, 90%, 71%);
+  --effects: #F2FF2F;
+  --hover: #eafa0f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
   box-sizing: border-box;
-  margin:0px;
+  margin: 0px;
   padding: 0px;
 }
+
+
 .body {
   text-align: center;
-  background: linear-gradient(#180c0c, #471f1f);
-  color: #b2ab2e;
+  /*light*/
+  /* background: #95c0ca; */
+  background: linear-gradient(#771a1a, #a71e1e);
+  color: var(--letters);
+  letter-spacing: 3px;
   justify-items: center;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
-font-family: 'Unbounded', cursive;
+  font-family: 'Unbounded', 'cursive';
 
 }
+
+.top_button {
+  text-decoration: none;
+  letter-spacing: 0rem;
+  font-weight: 100;
+  font-size: 1rem;
+  padding: .2rem;
+  position: fixed;
+  width: 3.3rem;
+  height: 3.3rem;
+  border-radius: 50%;
+  bottom: 3rem;
+  right: 3rem;
+  text-align: justify;
+  outline: none;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  color: var(--letters);
+  background-color: var(--wine-colored);
+  border: var(--letters) 2px solid;
+}
+
+.top_button:hover {
+  box-shadow: 0 0 5px var(--hover);
+}
+
 section {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--letters);
+  width: 95%;
 }
 
-.section {
-  background-color: brown;
-  border: 1px solid yellow;
-  margin: 0;
-}
-:root {
-  font-size: 13px;
+/* scroll bar */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--letters);
 }
 
-body {
-  display: grid;
-  font-family: "Courier New";
-
-  margin: 0px;
-}
-html {
-  scroll-behavior: smooth;
-  background-color: #180c0c;
+::-webkit-scrollbar-thumb:hover~::-webkit-scrollbar {
+  width: 10px;
 }
 
+::-webkit-scrollbar-thumb {
+  background: var(--letters_opacity);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--wine-colored);
+}
+
+::-webkit-scrollbar-button:single-button {
+  height: 16px;
+  background-color: var(--effects);
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  transition: width 0.3s ease;
+}
+
+::-webkit-scrollbar:hover {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-thumb:hover {
+  width: 10px;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  height: 28px;
+  background-color: var(--wine-colored);
+  background-image: url("data:image/svg+xml;utf8,<svg fill='hsl(57,94%,65%)' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 8l-6 6h12z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  height: 28px;
+  background-color: var(--wine-colored);
+  background-image: url("data:image/svg+xml;utf8,<svg fill='hsl(57,94%,65%)' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 16l6-6H6z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+}

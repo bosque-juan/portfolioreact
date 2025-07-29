@@ -10,8 +10,8 @@ import Footer from "./presentational/Footer";
 function App() {
   return (
     <div className="body">
+      <a class="top_button" href="#home">TOP</a>
       <Nav />
-
       <section>
         <Home />
       </section>
@@ -27,7 +27,6 @@ function App() {
       <section>
         <Contact />
       </section>
-
       <Footer />
     </div>
   );
