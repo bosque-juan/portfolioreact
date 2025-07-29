@@ -2,7 +2,6 @@ import footerStyles from "./Footer.module.css"
 export default function Footer() {
     return (
         <footer class={footerStyles.flex__footer}>
-
             <div class={footerStyles.flex__footer_items}>
                 <h3 class={footerStyles.footer__label}>Explore</h3>
                 <ul>
