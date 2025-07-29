@@ -1,32 +1,15 @@
 .headContact {
   display: grid;
   justify-items: center;
-}
-.containerContact {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  height: 100vh;
-  width: 80%;
-  grid-template-columns: repeat(2, 1fr);
-}
-.about {
-  display: grid;
-  width: 500%;
-}
-.img {
-  margin: 12rem;
-  display: flex;
-  height: 18rem;
-  width: 18rem;
-  border-radius: 200px;
+  min-height: 100dvh;
+  padding-bottom: 3rem;
 }
 
 .mainContact {
   position: relative;
   display: inline-block;
-  padding-top: 7rem;
+  top:7rem;
+  margin-bottom: 6rem;
   font-size: 3rem;
   justify-content: center;
 }
@@ -38,7 +21,7 @@
   left: 10%;
   width: 80%;
   height: 1px;
-  background-color: #b2ab2e;
+  background-color: var(--letters);
   transition: all 0.3s ease;
 }
 
@@ -46,20 +29,33 @@
   left: 0;
   width: 100%;
 }
+.containerContact {
+  display: grid;
+  align-content: center;
+  gap: 3rem;
+  min-width: 40dvw;
+  max-width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 
 .data {
   display: grid;
+  justify-content: center;
   text-align: left;
-  padding-left: 10rem;
 }
 
 .form {
   display: grid;
-  gap: 1.5rem;
-  justify-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  justify-content: center;
+	max-width: 600px;
 }
+
 ::placeholder {
-  color: black;
+  color: var(--wine-colored);
+  font-weight: 800;
   font-size: 1.2rem;
   font-family: "Courier New", Courier, monospace;
 }
@@ -68,18 +64,24 @@ input {
   font-weight: bolder;
   color: black;
   border-radius: 10px;
-  width: 13rem;
+  width: 100%;
   padding: 0.8rem;
   background-color: bisque;
-  border: black 1px solid;
+  border: none;
 }
+
+input:focus {
+  box-shadow: 0 0 0 3px #0005;
+  outline: none;
+}
+
 .dataInput {
   display: flex;
   gap: 1rem;
 }
+
 .textArea {
   width: 100%;
-  box-sizing: border-box;
   overflow-y: hidden;
   resize: none;
   font-weight: bolder;
@@ -87,64 +89,94 @@ input {
   border-radius: 10px;
   background-color: bisque;
   padding: 1rem 0.5rem;
-  width: 27rem;
-  border: black 1px solid;
+  font-family: inherit;
+  border: none;
 }
+
+.textArea:focus {
+  outline: none;
+}
+
 .button {
   font-weight: bolder;
   font-size: 1.2rem;
-  color: black;
+  color: var(--wine-colored);
+  font-weight: 800;
+  letter-spacing: .1rem;
   border-radius: 10px;
-  background-color: #b2ab2e;
+  background-color: var(--letters_opacity);
   padding: 0.8rem;
-  width: 27rem;
-  border: black 1px solid;
+  border: none;
   font-family: "Courier New", Courier;
   cursor: grab;
   transition: transform 0.3s ease 0s;
 }
+
 .button:hover {
-  background-color: #afa820;
-  transform: translateY(-10px);
+  background-color: var(--letters);
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 2px var(--effects);
 }
+
 @media screen and (max-width: 800px) {
   .headContact {
     width: 100%;
   }
+  
   .mainContact {
-    padding-top: 2rem;
     font-size: 2.5rem;
+      margin-bottom: 1rem;
+
   }
+  
   .containerContact {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+       /* padding-top: 2rem; */
+    padding-bottom: 1rem;
+      margin-bottom: 1rem;
   }
+  .form {
+        display: flex;
+        flex-direction: column;
+    gap: 0.5rem;
+  }
+
   .data {
     margin-top: 1rem;
     justify-items: center;
     padding-left: 0rem;
   }
+
   .dataInput {
-    display: grid;
-    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     justify-items: center;
   }
+
   .textArea {
-    box-sizing: border-box;
 
-    width: 15rem;
   }
+
   input {
-   
-    width: 15rem;
-  }
-  .button {
-    box-sizing: border-box;
 
-    width: 15rem;
   }
-  .form {
-    gap: 0.5rem;
+
+  .button {
+    flex:1 1 0;
+
   }
+  
 }
+
+
+
+
+
+
+
+
+
+

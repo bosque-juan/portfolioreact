@@ -10,7 +10,7 @@ import Style from "./Portfolio.module.css";
 export default function Portfolio() {
   return (
     <div id="portfolio" className={Style.headPortfolio}>
-      <Slide left cascade>
+      <Slide>
         <main className={Style.mainPortfolio}>Portfolio</main>
         <div className={Style.containerPortfolio}>
           {/* <div className={Style.imgContainer}>

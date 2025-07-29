@@ -1,16 +1,15 @@
 .headSkills {
   display: grid;
   justify-items: center;
-  max-height: 100vh;
-
-  
+  min-height: 100vh;
 }
+
 .containerSkills {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
-
 }
+
 .skills {
   display: flex;
   flex-direction: row;
@@ -20,10 +19,12 @@
   width: 90%;
   justify-content: center;
 }
-ul:hover{
-  color:#471f1f;
-  background-color: #b2ab2e;
+
+.skills>ul:hover {
+  color: var(--wine-);
+  background-color: var(--letters);
 }
+
 .image {
   margin: 12rem;
   display: block;
@@ -31,6 +32,7 @@ ul:hover{
   width: 28rem;
   border-radius: 20px;
 }
+
 .develop {
   display: flex;
   font-size: 2rem;
@@ -52,7 +54,7 @@ ul:hover{
   left: 10%;
   width: 80%;
   height: 1px;
-  background-color: #b2ab2e;
+  background-color: var(--letters);
   transition: all 0.3s ease;
 }
 
@@ -61,44 +63,44 @@ ul:hover{
   width: 100%;
 }
 
-ul {
+.skills>ul {
   display: inline;
-  margin: 4px;
-  padding: 5px;
-  border: solid 1px grey;
-  border-radius: 90px;
+  padding: 8px;
+  border: solid 1px var(--letters);
+  border-radius: 2px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .headSkills {
-   padding: 1.5rem;
-  
+    padding-top: 5rem;
+
   }
+
   .main1 {
     padding-top: 2rem;
     padding-bottom: 1rem;
     font-size: 2.5rem;
   }
+
   .containerSkills {
-    max-height: 80vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     gap: .5rem;
-    overflow-y:auto;
+  }
 
-  }
   .skills {
-     width: 100%;
+    width: 100%;
   }
+
   .develop {
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
+
   .image {
     margin: 0rem;
-    height: 10rem;
-    width: 14rem;
-    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 6rem;
   }
 }
-
