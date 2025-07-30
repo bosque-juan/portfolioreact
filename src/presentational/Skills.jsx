@@ -11,46 +11,32 @@ export default function Skills() {
         <div className={Style.containerSkills}>
           <div>
             <div>
-              <div className={Style.develop}>Tech</div>
+              <div className={Style.develop}>Back End</div>
 
               <div className={Style.skills}>
                 <Fade cascade damping={0.1}>
-                  <ul>HTML5</ul>
-                  <ul>JavaScript</ul>
-                  <ul>TypeScript</ul>
-                  <ul>React.js</ul>
-                  <ul>Redux</ul>
-                  <ul>CSS3</ul>
-                  <ul>Boostrap</ul>
-                  <ul>Material UI</ul>
+     
                   <ul>Node.js</ul>
                   <ul>Sequelize</ul>
                   <ul>Express.js</ul>
                   <ul>PostgreSql</ul>
-                  <ul>RESTful API</ul>
-                  <ul>Postman</ul>
-                  <ul>SCRUM</ul>
-                  <ul>Trello</ul>
-                  <ul>Git hub</ul>
-                  <ul>MongoDB</ul>
-                  <ul>Microservice</ul>
+                  <ul>C SHARP</ul>
+                  <ul>SQL SERVER</ul>
+                  <ul>REST FULL API's</ul>
                 </Fade>
               </div>
             </div>
             <div>
-              <div className={Style.develop}>Soft</div>
+              <div className={Style.develop}>Front End</div>
 
               <div className={Style.skills}>
                 <Fade cascade damping={0.1}>
-                  <ul>Team player</ul>
-                  <ul>Hard work</ul>
-                  <ul>Innovation</ul>
-                  <ul>Proeficient</ul>
-                  <ul>Learning</ul>
-                  <ul>Problem solver</ul>
-                  <ul>Proactive</ul>
-                  <ul>Independient</ul>
-                  <ul>Coperative</ul>
+                  <ul>HTML5</ul>
+                  <ul>CSS3</ul>
+                  <ul>JavaScript</ul>
+                  <ul>TypeScript</ul>
+                  <ul>React.js</ul>
+                  <ul>Boostrap</ul>
                 </Fade>
               </div>
             </div>

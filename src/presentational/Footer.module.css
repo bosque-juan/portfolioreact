@@ -11,8 +11,6 @@
     padding: 2rem 0;
 }
 
-
-
 .flex__footer_items {
     display: flex;
     flex-direction: column;
@@ -20,12 +18,9 @@
 }
 
 .flex__footer_items ul {
-
     display: flex;
     flex-direction: column;
     list-style: none;
-
-
 }
 
 .flex__footer_items ul>li {
@@ -41,9 +36,9 @@
     margin: .7em 0;
 }
 
-a{
+a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
 
 

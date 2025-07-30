@@ -1,18 +1,22 @@
 .headPortfolio {
   display: grid;
   justify-items: center;
-  height: 100vh;
+  min-height: 100dvh;
+  padding-bottom: 3rem;
 }
+
 .mainPortfolio {
   position: relative;
   display: inline-block;
-  padding-top: 7rem;
+  top: 7rem;
+  margin-bottom: 4rem;
   font-size: 3rem;
   justify-content: center;
-  transition: all 0.3s ease;
 }
+
 .containerPortfolio {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 5rem;
   padding: 0 1rem;
@@ -25,7 +29,7 @@
   left: 10%;
   width: 80%;
   height: 1px;
-  background-color: #b2ab2e;
+  background-color: var(--letters);
 }
 
 .mainPortfolio:hover::after {
@@ -38,6 +42,7 @@
   border-radius: 10px;
   width: 20rem;
 }
+
 .imgContainer {
   position: relative;
   display: inline-block;
@@ -51,7 +56,7 @@
   transform: translate(-50%, -50%);
   height: 15rem;
   width: 20rem;
-  color: #b2ab2e;
+  color: var(--letters);
   padding: 1.5rem 5px;
   align-content: center;
   opacity: 0;
@@ -62,28 +67,32 @@
   line-height: 3rem;
   font-display: 1px;
 }
+
 .imgContainer:hover .imgTitle {
   opacity: 1;
   border-radius: 10px;
   transition: 1s;
 }
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 600px) {
   .mainPortfolio {
-    margin: 2rem .6rem 0rem;
     font-size: 2.5rem;
+    /* margin-bottom: 1rem; */
+
   }
+
   .containerPortfolio {
-    max-height: 70vh;
     flex-direction: column;
-    overflow-y: auto;
     flex-wrap: nowrap;
   }
+
   .imgContainer {
     position: relative;
     display: inline-block;
     width: 20rem;
     height: 15rem;
   }
+
   .imgPortfolio {
     padding-top: 0rem;
     justify-content: center;
