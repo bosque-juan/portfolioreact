@@ -10,7 +10,7 @@ export default function Nav() {
     const handleResize = () => {
       const isSmall = window.innerWidth < 800;
       setIsSmallScreen(isSmall);
-      isSmall && setMenu(false); 
+      isSmall ? setMenu(false) : setMenu(true); 
     };
 
     handleResize(); 

@@ -70,7 +70,7 @@
   display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .logo {
     left: 2rem;
   }
