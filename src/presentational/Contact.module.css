@@ -1,15 +1,14 @@
 .headContact {
   display: grid;
   justify-items: center;
-  min-height: 100dvh;
+  min-height: 100vh;
   padding-bottom: 3rem;
 }
 
 .mainContact {
   position: relative;
   display: inline-block;
-  top:7rem;
-  margin-bottom: 6rem;
+  padding-top: 7rem;
   font-size: 3rem;
   justify-content: center;
 }
@@ -29,6 +28,7 @@
   left: 0;
   width: 100%;
 }
+
 .containerContact {
   display: grid;
   align-content: center;
@@ -50,7 +50,7 @@
   justify-content: space-around;
   gap: 2rem;
   justify-content: center;
-	max-width: 600px;
+  max-width: 600px;
 }
 
 ::placeholder {
@@ -121,25 +121,28 @@ input:focus {
 @media screen and (max-width: 800px) {
   .headContact {
     width: 100%;
-  }
-  
-  .mainContact {
-    font-size: 2.5rem;
-      margin-bottom: 1rem;
+    padding-top: 5rem;
 
   }
-  
+
+  .mainContact {
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+  }
+
   .containerContact {
+
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-       /* padding-top: 2rem; */
-    padding-bottom: 1rem;
-      margin-bottom: 1rem;
+    gap: .5rem;
   }
+
   .form {
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
     gap: 0.5rem;
   }
 
@@ -156,27 +159,8 @@ input:focus {
     justify-items: center;
   }
 
-  .textArea {
-
-  }
-
-  input {
-
-  }
-
   .button {
-    flex:1 1 0;
-
+    flex: 1 1 0;
   }
-  
+
 }
-
-
-
-
-
-
-
-
-
-
