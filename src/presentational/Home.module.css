@@ -3,8 +3,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  padding: 0 2rem;
-}
+  padding-bottom:3rem;}
 
 .head>a {
   text-decoration: none;
@@ -39,7 +38,6 @@
 
 .mainTitle {
   text-transform: uppercase;
-  /* text-wrap:pretty; */
   margin: auto;
   max-width: 90%;
   font-size: 2.5rem;
@@ -52,7 +50,7 @@ h6 {
 @media screen and (max-width: 900px) {
   .head {
     height: 100vh;
-    padding: 0 1rem;
+    padding: 1rem;
   }
 
   .containerHome {
