@@ -2,41 +2,7 @@
   display: grid;
   justify-items: center;
   min-height: 100vh;
-}
-
-.containerSkills {
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.skills {
-  display: flex;
-  flex-direction: row;
-  padding: 3rem;
-  gap: 1rem;
-  flex-wrap: wrap;
-  width: 90%;
-  justify-content: center;
-}
-
-.skills>ul:hover {
-  color: var(--wine-);
-  background-color: var(--letters);
-}
-
-.image {
-  margin: 12rem;
-  display: block;
-  height: 18rem;
-  width: 28rem;
-  border-radius: 20px;
-}
-
-.develop {
-  display: flex;
-  font-size: 2rem;
-  justify-content: center;
+  padding-bottom:3rem;
 }
 
 .main1 {
@@ -62,6 +28,42 @@
   left: 0;
   width: 100%;
 }
+
+.containerSkills {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+}
+
+.skills>ul:hover {
+  color: var( --wine-colored);
+  background-color: var(--letters);
+}
+
+.image {
+  margin: 12rem;
+  display: block;
+  height: 18rem;
+  width: 28rem;
+  border-radius: 20px;
+}
+
+.develop {
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+}
+
 
 .skills>ul {
   display: inline;
