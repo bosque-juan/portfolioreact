@@ -4,43 +4,36 @@ import Style from "./Nav.module.css";
 export default function Nav() {
   const [activeLink, setActiveLink] = useState("home");
   const [menu, setMenu] = useState(true);
-  const [small, setSmall] = useState(false);
-
-  const handleResize = () => {
-    if (window.screen.width < 700) {
-      setMenu(false);
-
-      setSmall(true);
-    } else {
-      setMenu(true);
-      setSmall(false);
-    }
-  };
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   useEffect(() => {
-    handleResize();
-  
+    const handleResize = () => {
+      const isSmall = window.innerWidth < 800;
+      setIsSmallScreen(isSmall);
+      isSmall && setMenu(false); 
+    };
+
+    handleResize(); 
     window.addEventListener("resize", handleResize);
 
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, [small]);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-  function Close() {
-    setMenu(!menu);
-  }
-  const handleLinkClick = (link) => {
-    setActiveLink(link);
-
-    small && Close();
+  const toggleMenu = () => {
+    setMenu((prev) => !prev);
   };
 
- 
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+    if (isSmallScreen) {
+      setMenu(false); 
+    }
+  };
 
   return (
     <div className={Style.headNav}>
       <div className={Style.logo}>JB</div>
+
       {menu && (
         <nav className={Style.links}>
           <span>
@@ -90,10 +83,11 @@ export default function Nav() {
           </span>
         </nav>
       )}
+
       <div className={Style.mobile}>
         <i
           className={menu ? "fas fa-times" : "fas fa-bars"}
-          onClick={() => setMenu(!menu)}
+          onClick={toggleMenu}
         ></i>
       </div>
     </div>
