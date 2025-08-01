@@ -1,14 +1,17 @@
 .headSkills {
-  display: grid;
+  position: relative;
+  display: flex;
   justify-items: center;
-  min-height: 100vh;
-  padding-bottom:3rem;
+  gap: 7rem;
+  flex-direction: column;
+  min-height: 100dvh;
+  padding-bottom: 3rem;
 }
 
 .main1 {
   position: relative;
   display: inline-block;
-  padding-top: 7rem;
+  margin-top: 7rem;
   font-size: 3rem;
   justify-content: center;
 }
@@ -30,9 +33,9 @@
 }
 
 .containerSkills {
-  display: grid;
+  min-height: 30vh;
+  display: flex;
   align-items: center;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .skills {
@@ -41,18 +44,23 @@
   padding: 3rem;
   gap: 1rem;
   flex-wrap: wrap;
-  width: 90%;
+  width: 45dvw;
   justify-content: center;
 }
 
 .skills>ul:hover {
-  color: var( --wine-colored);
+  color: var(--wine-colored);
   background-color: var(--letters);
 }
 
-.image {
-  margin: 12rem;
+.image_container {
+  width: 45dvw;
+  margin: auto;
   display: block;
+  justify-content: center;
+}
+
+.image {
   height: 18rem;
   width: 28rem;
   border-radius: 20px;
@@ -72,10 +80,9 @@
   border-radius: 2px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .headSkills {
-    padding-top: 5rem;
-
+    margin-top: 2rem;
   }
 
   .main1 {

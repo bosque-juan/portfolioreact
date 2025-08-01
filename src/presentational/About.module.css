@@ -1,16 +1,19 @@
 /*header & title*/
 .head {
-  display: grid;
   justify-items: center;
-  min-height: 100vh;
-  padding-bottom: 3rem;
+  position: relative;
+  display: flex;
+  gap: 7rem;
+  flex-direction: column;
+  min-height: 100dvh;
 }
 
 .mainAbout {
   position: relative;
   display: inline-block;
-  padding-top: 7rem;
+  margin-top: 7rem;
   font-size: 3rem;
+  justify-content: center;
 }
 
 .mainAbout::after {
@@ -34,10 +37,10 @@
   display: flex;
   align-items: center;
   justify-items: center;
-  width: 100%;
-  height: 100%;
-  padding-top: 6rem;
-  margin: auto;
+  align-items: center;
+  min-height: 50vh;
+  padding-bottom: 3rem;
+
 }
 
 .imgContainer1,
@@ -100,21 +103,20 @@
 .iconContainer {
   display: flex;
   justify-content: center;
-  gap: 3rem;
   padding-top: 1.5rem;
+  gap: 3rem;
 }
 
 @media screen and (max-width: 750px) {
   .head {
     display: flex;
-    padding-top: 5rem;
+    margin-top: 2rem;
     flex-direction: column;
-    align-items: center;
   }
 
   .mainAbout {
-    padding-bottom: 1rem;
     font-size: 2.5rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 
   }
@@ -127,7 +129,7 @@
 
   .imageAbout {
     display: block;
-    margin: 4rem 0rem;
+    margin: 2rem 0rem;
     height: 13rem;
     width: 13rem;
     border-radius: 200px;
