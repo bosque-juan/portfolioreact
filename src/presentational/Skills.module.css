@@ -1,14 +1,19 @@
 .headSkills {
-  display: grid;
+  position: relative;
+  display: flex;
   justify-items: center;
-  min-height: 100vh;
-  padding-bottom:3rem;
+  gap: 7rem;
+  flex-direction: column;
+  min-height: 100dvh;
+  padding-bottom: 3rem;
 }
 
 .main1 {
   position: relative;
   display: inline-block;
-  padding-top: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-top: 7rem;
   font-size: 3rem;
   justify-content: center;
 }
@@ -30,32 +35,47 @@
 }
 
 .containerSkills {
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(2, 1fr);
-}
+  min-height: 50vh;
+  display: flex;
 
+  align-items: center;
+}
+.sectionSkills{
+      flex:1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+}
 .skills {
   display: flex;
   flex-direction: row;
+      flex:1;
   padding: 3rem;
   gap: 1rem;
   flex-wrap: wrap;
-  width: 90%;
+  width: 45dvw;
   justify-content: center;
 }
 
 .skills>ul:hover {
-  color: var( --wine-colored);
+  color: var(--wine-colored);
   background-color: var(--letters);
 }
 
+.imageContainer {
+  width: 100%;
+  flex:1;
+  aspect-ratio: 16/9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .image {
-  margin: 12rem;
-  display: block;
-  height: 18rem;
-  width: 28rem;
-  border-radius: 20px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
 }
 
 .develop {
@@ -72,15 +92,12 @@
   border-radius: 2px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .headSkills {
-    padding-top: 5rem;
-
+    margin-top: 5rem;
   }
 
   .main1 {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
     font-size: 2.5rem;
   }
 
@@ -100,9 +117,13 @@
     margin-bottom: 1rem;
   }
 
+  .imageContainer {
+    aspect-ratio: 0;
+    justify-content: space-evenly;
+  }
+
   .image {
     margin: 0rem;
     overflow: hidden;
-    margin-top: 6rem;
   }
 }
