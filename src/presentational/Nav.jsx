@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Style from "./Nav.module.css";
+import { FiAlignJustify } from "react-icons/fi";
+import { RxCross2 } from "react-icons/rx";
+
 
 export default function Nav() {
   const [activeLink, setActiveLink] = useState("home");
@@ -10,10 +13,10 @@ export default function Nav() {
     const handleResize = () => {
       const isSmall = window.innerWidth < 800;
       setIsSmallScreen(isSmall);
-      isSmall ? setMenu(false) : setMenu(true); 
+      isSmall ? setMenu(false) : setMenu(true);
     };
 
-    handleResize(); 
+    handleResize();
     window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize);
@@ -26,7 +29,7 @@ export default function Nav() {
   const handleLinkClick = (link) => {
     setActiveLink(link);
     if (isSmallScreen) {
-      setMenu(false); 
+      setMenu(false);
     }
   };
 
@@ -84,12 +87,12 @@ export default function Nav() {
         </nav>
       )}
 
-      <div className={Style.mobile}>
-        <i
-          className={menu ? "fas fa-times" : "fas fa-bars"}
-          onClick={toggleMenu}
-        ></i>
-      </div>
+<div className={Style.mobile}>
+  <i onClick={toggleMenu} className={`${Style.iconTransition} ${menu ? Style.iconOpen : ""}`}>
+    {menu ? <RxCross2 /> : <FiAlignJustify />}
+  </i>
+</div>
+
     </div>
   );
 }
