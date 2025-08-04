@@ -18,9 +18,10 @@ export default function About() {
             <h2>Juan Bosque</h2>
             <span>Full Stack Web Developer</span>
             <p className={Style.abouText}>
-              I’m a full stack web developer. I’m passionate about learning new practices, improving every day, and applying what I learn.
-              I had experience working as a full stack developer at Shaper US, where I grew both technically and professionally.
-              Currently, I’m studying Programming at the National Technological University to continue strengthening my knowledge.
+              I'm a Front-end – Full Stack developer with 6 months of experience, after working as a
+              contractor on a project at Shaper US, where I learned about teamwork and agile technologies.
+              I'm currently studying for a Programming Technician degree at UTN FRC to deepen my knowledge and skills in development.
+              I like to write clean, structured code with single-responsibility components. I'm always willing to learn, collaborate, and get results.
             </p>
 
             <ul className={Style.iconContainer}>
@@ -43,10 +44,10 @@ export default function About() {
                 </i>
               </a>
 
-              <a href="https://drive.google.com/file/d/1Fm9Cy_PZEhc1hNLy-36TC4W3LZw_7btA/view" rel="noreferrer"
+              <a href="https://drive.google.com/file/d/1NhWPsGjmpBfoqO9p-LGaHgAYr7Y7J5vP/view?usp=sharing" rel="noreferrer"
                 target="_blank" >
                 <i>
-                  <BsListCheck className={Style.icon} title="English CV" />
+                  <BsListCheck className={Style.icon} title="Resume - CV" />
                 </i>
               </a>
             </ul>

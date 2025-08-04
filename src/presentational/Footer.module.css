@@ -1,3 +1,16 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+footer>article {
+    text-wrap: pretty;
+    padding: 2rem 1rem;
+    line-height: 2rem;
+}
+
 .flex__footer {
     padding-bottom: .2rem;
     display: flex;
