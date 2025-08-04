@@ -26,7 +26,7 @@ export default function Footer() {
                     <h3 class={footerStyles.footer__label}>Links</h3>
                     <ul>
                         <li><a href="https://drive.google.com/file/d/1NhWPsGjmpBfoqO9p-LGaHgAYr7Y7J5vP/view?usp=sharing" rel="noreferrer" target="_blank">Resume</a></li>
-                        <li><a href="https://wa.me/5493515372020?text=Hola%20Juan,%20quiero%20saber%20más%20sobre%20tu%20trabajo"
+                        <li><a href="https://wa.me/5493517674416?text=Hola%20Juan,%20quiero%20saber%20más%20sobre%20tu%20trabajo"
                             target="_blank" rel="noreferrer">WhatsApp</a></li>
                         <li><a
                             href="mailto:juan_bosque@hotmail.com?subject=Contacto%20desde%20tu%20portfolio&body=Hola%20Juan,%20quiero%20saber%20más%20sobre%20tu%20trabajo."
@@ -41,3 +41,4 @@ export default function Footer() {
         </footer>)
 
 }
+
