@@ -11,18 +11,23 @@
 .mainPortfolio {
   position: relative;
   display: inline-block;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   margin-top: 7rem;
   font-size: 3rem;
   justify-content: center;
 }
 
+
+
 .containerPortfolio {
   display: flex;
   align-items: center;
-  min-height: 50vh;
-  justify-content: space-around;
+  min-height: 70vh;
+  max-width: 90%;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  margin: auto;
 }
 
 .mainPortfolio::after {
@@ -40,74 +45,62 @@
   width: 100%;
 }
 
-.imgPortfolio {
-  height: 15rem;
-  border-radius: 10px;
-  width: 20rem;
+.imgContainer {
+  width: 30%;
+  position: relative;
+  overflow-y: hidden;
+  margin:1.5rem;
+  min-width: 250px;
 }
 
-.imgContainer {
-  position: relative;
-  display: inline-block;
+.imgPortfolio {
+  max-width: 100%;
+  border-radius: 10px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
 
 .imgTitle {
-  position: absolute;
-  top: 49%;
-  left: 50%;
   border-radius: 10px;
-  transform: translate(-50%, -50%);
-  height: 15rem;
-  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
   color: var(--letters);
-  padding: 1.5rem 5px;
-  align-content: center;
-  opacity: 0;
-  transition: opacity 0.3s;
-  backdrop-filter: blur(10px);
+  top: 0px;
+  transform: translateY(100%);
   font-family: "Courier New", Courier, monospace;
   font-size: 2rem;
-  line-height: 3rem;
-  font-display: 1px;
+  transition: transform .2s ease;
+  transition-delay: .1s;
+  opacity: 0;
+  background-color: #0006;
+}
+.imgTitle>nav{
+  margin:1rem;
+}
+.imgTitle>nav>a {
+  margin:1.5rem;
 }
 
 .imgContainer:hover .imgTitle {
+  transform: translateY(-1%);
   opacity: 1;
-  border-radius: 10px;
-  transition: 1s;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .headPortfolio {
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
 
   .mainPortfolio {
     font-size: 2.5rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
   }
 
-  .containerPortfolio {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 2rem;
-  }
 
-  .imgContainer {
-    position: relative;
-    display: inline-block;
-    width: 20rem;
-    height: 15rem;
-  }
-
-  .imgPortfolio {
-    padding-top: 0rem;
-    justify-content: center;
-    height: 15rem;
-    width: 20rem;
-    border-radius: 10px;
-  }
 
   .imgTitle {
     height: 15rem;

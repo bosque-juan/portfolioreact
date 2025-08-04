@@ -10,7 +10,7 @@ export default function Home() {
         </i>
       </a>
       <div className={Style.containerHome}>
-        <Slide right>
+        <Slide>
           <div className={Style.greeting}>
             <span>JUAN</span>
             <br />
@@ -18,7 +18,7 @@ export default function Home() {
             <h5 className={Style.subtitle}>FULL STACK WEB DEVELOPER</h5>
           </div>
         </Slide>
-        <Slide right>
+        <Slide>
           <div>
             <h3 className={Style.mainTitle}>
               Welcome to my personal portfolio!

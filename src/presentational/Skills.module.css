@@ -11,6 +11,8 @@
 .main1 {
   position: relative;
   display: inline-block;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   margin-top: 7rem;
   font-size: 3rem;
   justify-content: center;
@@ -33,14 +35,23 @@
 }
 
 .containerSkills {
-  min-height: 30vh;
+  min-height: 50vh;
   display: flex;
+
   align-items: center;
+}
+
+.sectionSkills {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .skills {
   display: flex;
   flex-direction: row;
+  flex: 1;
   padding: 3rem;
   gap: 1rem;
   flex-wrap: wrap;
@@ -53,17 +64,20 @@
   background-color: var(--letters);
 }
 
-.image_container {
-  width: 45dvw;
-  margin: auto;
-  display: block;
+.imageContainer {
+  width: 100%;
+  flex: 1;
+  aspect-ratio: 16/9;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .image {
-  height: 18rem;
-  width: 28rem;
-  border-radius: 20px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
 }
 
 .develop {
@@ -82,12 +96,10 @@
 
 @media screen and (max-width: 800px) {
   .headSkills {
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
 
   .main1 {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
     font-size: 2.5rem;
   }
 
@@ -107,9 +119,13 @@
     margin-bottom: 1rem;
   }
 
+  .imageContainer {
+    aspect-ratio: 0;
+    justify-content: space-evenly;
+  }
+
   .image {
     margin: 0rem;
     overflow: hidden;
-    margin-top: 6rem;
   }
 }

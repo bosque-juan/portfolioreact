@@ -1,9 +1,13 @@
+import { AiFillGithub } from "react-icons/ai";
+import { TbWorld } from "react-icons/tb";
+
 import { Slide } from "react-awesome-reveal";
-// import landingS from "../assets/landingS.png";
 import recipess from "../assets/recipess.png";
 import Athenas from "../assets/Athenas.png";
 import Ecommerce from "../assets/ecommerce.png";
-import Dog from '../assets/happydogCover.png'
+import Dog from '../assets/happydogCover.png';
+
+import Weather from '../assets/landing.png';
 
 import Style from "./Portfolio.module.css";
 
@@ -13,35 +17,39 @@ export default function Portfolio() {
       <Slide>
         <main className={Style.mainPortfolio}>Portfolio</main>
         <div className={Style.containerPortfolio}>
-          {/* <div className={Style.imgContainer}>
-            <img
-              className={Style.imgPortfolio}
-              src={landingS}
-              alt="weather app"
-            />
-            <a href="https://weatherappjb.vercel.app/">
-              <h5 className={Style.imgTitle}>
-                Weather App
-                <br /> find up the forecast!
-                <br />
-                click
-              </h5>
-            </a>
-          </div> */}
-            <div className={Style.imgContainer}>
+          <div className={Style.imgContainer}>
             <img
               className={Style.imgPortfolio}
               src={Dog}
               alt="happy dog"
             />
-            <a href="https://happy-dog-front.vercel.app/">
-              <h5 className={Style.imgTitle}>
-                Happy Dog
-                <br /> Addopt your dog
-                <br />
-                click
-              </h5>
-            </a>
+            <h5 className={Style.imgTitle}>
+              Happy Dog
+
+              <br />
+              <nav>
+                <a
+                  href="https://github.com/bosque-juan"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i>
+                    <AiFillGithub className={Style.icon} title="Git Hub" />
+                  </i>
+                </a>
+
+                <a
+                  href="https://happy-dog-front.vercel.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i>
+                    <TbWorld className={Style.icon} title="Web Site" />
+                  </i>
+                </a>
+              </nav>
+
+            </h5>
           </div>
           <div className={Style.imgContainer}>
             <img
@@ -52,9 +60,29 @@ export default function Portfolio() {
             <a href="https://recipesjb.vercel.app/">
               <h5 className={Style.imgTitle}>
                 Recipes App
-                <br /> making your own food!
-                <br />
-                click
+
+                <nav>
+                  <a
+                    href="https://github.com/bosque-juan"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i>
+                      <AiFillGithub className={Style.icon} title="Git Hub" />
+                    </i>
+                  </a>
+
+                  <a
+                    href="https://happy-dog-front.vercel.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i>
+                      <TbWorld className={Style.icon} title="Web Site" />
+                    </i>
+                  </a>
+                </nav>
+
               </h5>
             </a>
           </div>
@@ -66,12 +94,34 @@ export default function Portfolio() {
             />
             <a href="https://proyecto-final-matarg81.vercel.app/">
               <h5 className={Style.imgTitle}>
-                Athenas Club 
-                <br /> buy merchandising
+                Athenas Club
+
                 <br />
-                click
+                <nav>
+                  <a
+                    href="https://github.com/bosque-juan"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i>
+                      <AiFillGithub className={Style.icon} title="Git Hub" />
+                    </i>
+                  </a>
+
+                  <a
+                    href="https://happy-dog-front.vercel.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i>
+                      <TbWorld className={Style.icon} title="Web Site" />
+                    </i>
+                  </a>
+                </nav>
+
               </h5>
             </a>
+
           </div>
           <div className={Style.imgContainer}>
             <img
@@ -81,10 +131,65 @@ export default function Portfolio() {
             />
             <a href="https://ecommercejb.vercel.app/">
               <h5 className={Style.imgTitle}>
-                Ecommerce
-                <br /> Clothes
+                Clothes Store
                 <br />
-                click
+                <nav>
+                  <a
+                    href="https://github.com/bosque-juan"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i>
+                      <AiFillGithub className={Style.icon} title="Git Hub" />
+                    </i>
+                  </a>
+
+                  <a
+                    href="https://happy-dog-front.vercel.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i>
+                      <TbWorld className={Style.icon} title="Web Site" />
+                    </i>
+                  </a>
+                </nav>
+
+              </h5>
+            </a>
+          </div>
+          <div className={Style.imgContainer}>
+            <img
+              className={Style.imgPortfolio}
+              src={Weather}
+              alt="weather app"
+            />
+            <a href="https://weatherappjb.vercel.app/">
+              <h5 className={Style.imgTitle}>
+                Weather App
+                <br />
+                <nav>
+                  <a
+                    href="https://github.com/bosque-juan"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i>
+                      <AiFillGithub className={Style.icon} title="Git Hub" />
+                    </i>
+                  </a>
+
+                  <a
+                    href="https://happy-dog-front.vercel.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i>
+                      <TbWorld className={Style.icon} title="Web Site" />
+                    </i>
+                  </a>
+                </nav>
+
               </h5>
             </a>
           </div>

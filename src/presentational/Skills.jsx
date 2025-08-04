@@ -9,13 +9,12 @@ export default function Skills() {
         <main className={Style.main1}>Skills</main>
 
         <div className={Style.containerSkills}>
-          <div>
+          <section className={Style.sectionSkills}>
             <div>
               <div className={Style.develop}>Back End</div>
 
               <div className={Style.skills}>
-                <Fade cascade damping={0.1}>
-     
+                <Fade cascade damping={0.1}>     
                   <ul>Node.js</ul>
                   <ul>Sequelize</ul>
                   <ul>Express.js</ul>
@@ -40,9 +39,9 @@ export default function Skills() {
                 </Fade>
               </div>
             </div>
-          </div>
+          </section>
 
-          <div>
+          <div className={Style.imageContainer} >
             <img className={Style.image} src={image} alt="" />
           </div>
         </div>
