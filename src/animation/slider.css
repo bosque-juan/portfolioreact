@@ -1,0 +1,15 @@
+@keyframes slider {
+    from {
+        transform: translate(-100vw);
+    }
+
+    to {
+        transform: translate(0vw);
+    }
+}
+
+.slider {
+    animation-name: slider;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
