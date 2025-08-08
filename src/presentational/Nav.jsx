@@ -3,9 +3,7 @@ import Style from "./Nav.module.css";
 import { FiAlignJustify } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
 
-
-export default function Nav() {
-  const [activeLink, setActiveLink] = useState("home");
+export default function Nav({ activeLink, setActiveLink }) {
   const [menu, setMenu] = useState(true);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
@@ -32,6 +30,36 @@ export default function Nav() {
       setMenu(false);
     }
   };
+
+
+// export default function Nav() {
+//   const [activeLink, setActiveLink] = useState("home");
+//   const [menu, setMenu] = useState(true);
+//   const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+//   useEffect(() => {
+//     const handleResize = () => {
+//       const isSmall = window.innerWidth < 800;
+//       setIsSmallScreen(isSmall);
+//       isSmall ? setMenu(false) : setMenu(true);
+//     };
+
+//     handleResize();
+//     window.addEventListener("resize", handleResize);
+
+//     return () => window.removeEventListener("resize", handleResize);
+//   }, []);
+
+//   const toggleMenu = () => {
+//     setMenu((prev) => !prev);
+//   };
+
+//   const handleLinkClick = (link) => {
+//     setActiveLink(link);
+//     if (isSmallScreen) {
+//       setMenu(false);
+//     }
+//   };
 
   return (
     <div className={Style.headNav}>
