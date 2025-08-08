@@ -9,17 +9,17 @@
   padding-bottom: 3rem;
 }
 
-.mainAbout {
+.mainAbout>h2 {
   position: relative;
   display: inline-block;
-  padding-top: 2rem;
+  padding-top: .5rem;
   padding-bottom: 1rem;
   margin-top: 7rem;
   font-size: 3rem;
   justify-content: center;
 }
 
-.mainAbout::after {
+.mainAbout>h2::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -30,7 +30,7 @@
   transition: all 0.3s ease;
 }
 
-.mainAbout:hover::after {
+.mainAbout>h2:hover::after {
   left: 0;
   width: 100%;
 }

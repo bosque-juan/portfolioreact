@@ -8,10 +8,10 @@
   padding-bottom: 3rem;
 }
 
-.mainPortfolio {
+.mainPortfolio>h2 {
   position: relative;
   display: inline-block;
-  padding-top: 2rem;
+  padding-top: .5rem;
   padding-bottom: 1rem;
   margin-top: 7rem;
   font-size: 3rem;
@@ -20,17 +20,8 @@
 
 
 
-.containerPortfolio {
-  display: flex;
-  align-items: center;
-  min-height: 70vh;
-  max-width: 90%;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: auto;
-}
 
-.mainPortfolio::after {
+.mainPortfolio>h2::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -40,9 +31,19 @@
   background-color: var(--letters);
 }
 
-.mainPortfolio:hover::after {
+.mainPortfolio>h2:hover::after {
   left: 0;
   width: 100%;
+}
+
+.containerPortfolio {
+  display: flex;
+  align-items: center;
+  min-height: 70vh;
+  max-width: 90%;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
 .imgContainer {

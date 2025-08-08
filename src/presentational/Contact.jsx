@@ -1,11 +1,9 @@
 import Style from "./Contact.module.css";
 
-import { Slide } from "react-awesome-reveal";
 export default function Contact() {
   return (
-    <div id="contact" className={Style.headContact}>
-      <Slide>
-        <main className={Style.mainContact}>Contact</main>
+    <div  className={Style.headContact}>
+        <main className={Style.mainContact}><h2>Contact</h2></main>
         <div className={Style.containerContact}>
           <div className={Style.data}>
             <h1>EMAIL</h1>
@@ -32,13 +30,12 @@ export default function Contact() {
             </div>
             <textarea
               id="textArea"
-              maxlength="200" type="text" wrap="hard" rows="4" name="message" placeholder="Leave your message"
+              maxLength="200" type="text" wrap="hard" rows="4" name="message" placeholder="Leave your message"
               className={Style.textArea}
             ></textarea>
             <input className={Style.button} type="submit" value="Send" />
           </form>
         </div>
-      </Slide>
     </div>
   );
 }
