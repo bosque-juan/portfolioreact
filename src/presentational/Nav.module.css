@@ -93,7 +93,7 @@
     align-items: center;
   }
 
-  .mobile i {
+  .mobile>i {
     font-size: 24px;
     cursor: grab;
     margin-right: 2rem;
@@ -105,16 +105,27 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    top: 5rem;
+    top: 6rem;
     right: 0;
     margin-right: 0rem;
     padding-right: 0;
     height: 30vh;
-    padding: 40px 0 0 10px;
+    padding: 10px 0 0 10px;
+    transform: translateX(100%);
+    opacity: 0;
+    border-radius: 8px;
+    pointer-events: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .open {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .links span {
     margin-bottom: 20px;
   }
-  
+
 }
