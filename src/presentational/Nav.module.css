@@ -18,11 +18,13 @@
   position: absolute;
   display: flex;
   left: 3rem;
-  height: 3rem;
-  width: 3rem;
+  min-height: 3rem;
+  min-width: 3rem;
+  padding: .3rem;
   border: var(--letters) solid 1px;
   border-radius: 60px;
   align-items: center;
+  letter-spacing: .1rem;
   justify-content: center;
   color: var(--letters);
   transition: all 0.3s ease-in-out;
@@ -109,7 +111,7 @@
     right: 0;
     margin-right: 0rem;
     padding-right: 0;
-    height: 30vh;
+    min-height: 30vh;
     padding: 10px 0 0 10px;
     transform: translateX(100%);
     opacity: 0;
