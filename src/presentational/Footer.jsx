@@ -25,7 +25,7 @@ export default function Footer() {
                 <nav className={footerStyles.flex__footer_items}>
                     <h3 className={footerStyles.footer__label}>Links</h3>
                     <ul>
-                        <li><a href="https://drive.google.com/file/d/1NhWPsGjmpBfoqO9p-LGaHgAYr7Y7J5vP/view?usp=sharing" rel="noreferrer" target="_blank">Resume</a></li>
+                        <li><a href="https://drive.google.com/file/d/1zG8TZ7sBnLcP8pqiL3Uc4WvSHY3knvkc/view?usp=sharing" rel="noreferrer" target="_blank">Resume</a></li>
                         <li><a href="https://wa.me/5493517674416?text=Hola%20Juan,%20quiero%20saber%20más%20sobre%20tu%20trabajo"
                             target="_blank" rel="noreferrer">WhatsApp</a></li>
                         <li><a
@@ -41,4 +41,5 @@ export default function Footer() {
         </footer>)
 
 }
+
 
