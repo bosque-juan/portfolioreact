@@ -43,7 +43,7 @@ export default function About() {
                 <AiFillGithub className={Style.icon} title="Git Hub" />
               </i>
             </a>
-            <a href=https://drive.google.com/file/d/1zG8TZ7sBnLcP8pqiL3Uc4WvSHY3knvkc/view?usp=sharing" rel="noreferrer"
+            <a href="https://drive.google.com/file/d/1zG8TZ7sBnLcP8pqiL3Uc4WvSHY3knvkc/view?usp=sharing" rel="noreferrer"
               target="_blank" >
               <i>
                 <BsListCheck className={Style.icon} title="Resume - CV" />
@@ -56,3 +56,4 @@ export default function About() {
   );
 
 }
+
