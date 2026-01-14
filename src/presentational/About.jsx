@@ -16,7 +16,7 @@ export default function About() {
         {/* about text */}
         <div className={Style.about}>
           <h2>Juan Bosque</h2>
-          <span>Full Stack Web Developer</span>
+          <span>.Net Developer</span>
           <p className={Style.abouText}>
             I am a Backend Developer with experience building APIs and services using C# / ASP.NET Core, applying scalable software architecture principles.
             I have 6 months of professional experience at Shaper Gap.
@@ -55,6 +55,7 @@ export default function About() {
   );
 
 }
+
 
 
 
