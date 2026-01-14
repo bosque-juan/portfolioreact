@@ -18,11 +18,10 @@ export default function About() {
           <h2>Juan Bosque</h2>
           <span>Full Stack Web Developer</span>
           <p className={Style.abouText}>
-            I'm a Front-end – Full Stack developer with 6 months of experience, after working as a
-            contractor on a project at Shaper US, where I learned about teamwork and agile technologies.
-            I'm currently studying for a Programming Technician degree at UTN FRC to deepen my knowledge and skills in development.
-            I like to write clean, structured code with single-responsibility components. I'm always willing to learn, collaborate, and get results.
-          </p>
+            I am a Backend Developer with experience building APIs and services using C# / ASP.NET Core, applying scalable software architecture principles.
+            I have 6 months of professional experience at Shaper Gap.
+            Currently studying Programming at the National Technological University (UTN), having successfully completed the first year, and deepening my knowledge in error handling, unit testing, and integration testing during the academic break.
+         </p>
           {/* Icons */}
           <ul className={Style.iconContainer}>
             <a
@@ -56,4 +55,5 @@ export default function About() {
   );
 
 }
+
 
