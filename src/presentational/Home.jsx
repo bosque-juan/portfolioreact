@@ -14,7 +14,7 @@ export default function Home() {
             <span>JUAN</span>
             <br />
             BOSQUE
-            <h5 className={Style.subtitle}>FULL STACK WEB DEVELOPER</h5>
+            <h5 className={Style.subtitle}>BACK END .NET DEVELOPER</h5>
           </div>
 
           <div>
@@ -28,3 +28,4 @@ export default function Home() {
     </div>
   );
 }
+
